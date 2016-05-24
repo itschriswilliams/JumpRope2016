@@ -9,18 +9,17 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Grayscale - Start Bootstrap Theme</title>
+    <title>JumpRope</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="css/grayscale.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Questrial|Lato:400,700' rel='stylesheet' type='text/css'>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -41,28 +40,12 @@
                     <i class="fa fa-bars"></i>
                 </button>
                 <a class="navbar-brand page-scroll" href="#page-top">
-                    <i class="fa fa-play-circle"></i>  <span class="light">Start</span> Bootstrap
+                    <img width="150" src="img/template/JMPRP_Logo.svg" alt="">
                 </a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
-                <ul class="nav navbar-nav">
-                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#about">About</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#download">Download</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
+                <?php include 'includes/nav.php' ?>
             <!-- /.navbar-collapse -->
         </div>
         <!-- /.container -->
@@ -73,38 +56,41 @@
         <div class="intro-body">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-8 col-md-offset-2">
-                        <h1 class="brand-heading">Grayscale</h1>
-                        <p class="intro-text">A free, responsive, one page Bootstrap theme.<br>Created by Start Bootstrap.</p>
-                        <a href="#about" class="btn btn-circle page-scroll">
+                    <div class="col-md-8 text-left">
+                        <br><br><br>
+                        <h1>Building a better education, from the gradebook up.</h1>
+                        <p>JumpRope is more than a software company. We’re experts in standards-based grading and its practical implementation.
+</p>
+                   <!--      <a href="#about" class="btn btn-circle page-scroll">
                             <i class="fa fa-angle-double-down animated"></i>
-                        </a>
+                        </a> -->
                     </div>
                 </div>
             </div>
         </div>
     </header>
 
-    <!-- About Section -->
-    <section id="about" class="container content-section text-center">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-                <h2>About Grayscale</h2>
-                <p>Grayscale is a free Bootstrap 3 theme created by Start Bootstrap. It can be yours right now, simply download the template on <a href="http://startbootstrap.com/template-overviews/grayscale/">the preview page</a>. The theme is open source, and you can use it for any purpose, personal or commercial.</p>
-                <p>This theme features stock photos by <a href="http://gratisography.com/">Gratisography</a> along with a custom Google Maps skin courtesy of <a href="http://snazzymaps.com/">Snazzy Maps</a>.</p>
-                <p>Grayscale includes full HTML, CSS, and custom JavaScript files along with LESS files for easy customization.</p>
+    <!-- Gradebook Plug Section -->
+    <section id="gradebook" class="text-left">
+        <div class="backgrounded gradebook">
+            <div class="container">
+                <div class="col-md-10">
+                    <h1>Deep roots in standards-based education.</h1>
+                    <p>Steeped in a profound knowledge of standards-based education, JumpRope’s gradebook does more than just track learning goals. It blends technology and instruction to elevate teacher practice and engage students.</p>
+                    <a class="btn" href="#">Explore the Gradebook</a>
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- Download Section -->
-    <section id="download" class="content-section text-center">
-        <div class="download-section">
+    <!-- Partnering Section -->
+    <section id="partnering" class="text-left">
+        <div class="backgrounded partnering">
             <div class="container">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <h2>Download Grayscale</h2>
-                    <p>You can download Grayscale for free on the preview page at Start Bootstrap.</p>
-                    <a href="http://startbootstrap.com/template-overviews/grayscale/" class="btn btn-default btn-lg">Visit Download Page</a>
+                <div class="col-md-10">
+                    <h1>Partnering with you to effect transformational change.</h1>
+                    <p>It’s difficult to enact transformational change alone – JumpRope partners with you to make sure implementation is successful at all levels. Our site training, online courses, and expert customer service makes the transition to standards-based grading fluid not frustrating. We also provide consulting on everything from professional development, teacher practice, core philosophy, and family engagement. You get the benefit of our expertise every step of the way. </p>
+                    <a class="btn" href="#">Partner with Jumprope</a>
                 </div>
             </div>
         </div>

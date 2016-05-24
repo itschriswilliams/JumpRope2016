@@ -1,3 +1,49 @@
 // Variables
 
-$primary: #42DCA3;
+$primary: #005f80;
+
+
+
+/* Color */
+
+// Colors
+$colours: (
+  "black": #000000,
+  "white": #FFFFFF,
+  "ltgrey": #929292,
+  "grey": #666666,
+  "dkgrey": #666666,
+  "ltturq": #80CFDC,
+  "turq": #00a7c0,
+  "blue": #005f80,
+  "brandblue": #005f80,
+  "dkblue": #003b5c,
+  "orange": #e68400,
+  "yellow": #ffb11c
+);
+
+// Color Class Buildout
+@each $colour, $colour_value in $colours {
+  .#{$colour} {
+    background-color: $colour_value;
+  }
+  .#{$colour}-text {
+    color: $colour_value;
+  }
+  .#{$colour}-border {
+    border-color: $colour_value;
+  }  
+}
+
+$fonts: (
+  "questrial": 'Questrial',
+  "lato": 'Lato'
+  );
+@each $font, $font_value in $fonts {
+  .#{$font} {
+    font-family: $font_value;
+  }
+}
+
+
+

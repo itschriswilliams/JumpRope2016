@@ -1,0 +1,378 @@
+// JumpRope Web
+// 2016
+
+@import "variables";
+@import "mixins";
+@import "definitions";
+
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Lato', sans-serif;
+    @extend .grey-text;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 35px;
+    font-family: 'Questrial', sans-serif;
+    letter-spacing: 1px;
+}
+
+p {
+    margin: 0 0 25px;
+    font-size: 18px;
+    line-height: 1.5;
+    @media(min-width:768px) {
+        margin: 0 0 35px;
+        font-size: 20px;
+        line-height: 1.6;
+    }
+}
+
+a {
+    color: $primary;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    &:hover,
+    &:focus {
+        text-decoration: none;
+        color: darken($primary,20%);
+    }
+}
+
+.light {
+    font-weight: 400;
+}
+
+.navbar-custom {
+    margin-bottom: 0;
+    // border-bottom: 1px solid rgba(white, 0.3);
+    @extend .questrial;
+    @extend .blue;
+    .navbar-toggle {
+        padding: 4px 6px;
+        font-size: 16px;
+        color: white;
+        &:focus,
+        &:active {
+            outline: none;
+        }
+    }
+    .navbar-brand {
+        font-weight: 700;
+        &:focus {
+            outline: none;
+        }
+        padding: 8px 15px;
+    }
+    .navbar-collapse.collapse {
+        @media (min-width: 768px) {
+            display: none !important;
+        }
+        @media (min-width: 992px) {
+            display: block !important;
+        }        
+    }
+    a {
+        color: white;
+    }
+    .nav {
+        li {
+            a {
+                -webkit-transition: all .3s ease-in-out;
+                -moz-transition: all .3s ease-in-out;
+                transition: all .3s ease-in-out;
+                &:hover {
+                    color: rgba(white, 0.8);
+                    outline: none;
+                    background-color: transparent;
+                }
+                &:focus,
+                &:active {
+                    outline: none;
+                    background-color: transparent;
+                }
+                &.btn {
+                    margin: 8px 5px;
+                    padding: 5px 10px;
+                    @extend .questrial;
+                    text-transform: inherit;
+                    border: 1px solid white;
+                    color: white;                    
+                    &.login {
+                        background: transparent;
+                        &:hover {
+                            background-color: white;
+                            @extend .blue-text;
+                        }
+                    }
+                    &.signup {
+                        @extend .turq;
+                        &:hover {
+                            @extend .orange;
+                            @extend .orange-border;                            
+                        }
+                    }
+                }
+            }
+            &.active {
+                outline: none;
+                a {
+                    // background-color: rgba(white, 0.3);
+                    &:hover {
+                        // color: white;
+                    }
+                }
+            }
+        }
+    }
+    @media(min-width:768px) {
+        padding: 20px 0;
+        border-bottom: none;
+        letter-spacing: 1px;
+        background: transparent;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+        &.top-nav-collapse {
+            padding: 0;
+            background-color: map-get($colours, "blue");
+            // border-bottom: 1px solid rgba(white, 0.3);
+        }
+    }
+}
+
+.intro {
+    display: table;
+    width: 100%;
+    height: auto;
+    padding: 100px 0;
+    text-align: center;
+    color: white;
+    background: url(../img/banner/Homepage-Intro.jpg) no-repeat bottom center scroll;
+    background-color: black;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    .intro-body {
+        display: table-cell;
+        vertical-align: middle;
+        .brand-heading {
+            font-size: 40px;
+        }
+        .intro-text {
+            font-size: 18px;
+        }
+    }
+    @media(min-width:768px) {
+        height: 100%;
+        padding: 0;
+        .intro-body {
+            .brand-heading {
+                font-size: 100px;
+            }
+            .intro-text {
+                font-size: 26px;
+            }
+        }
+    }
+}
+
+.btn-circle {
+    width: 70px;
+    height: 70px;
+    margin-top: 15px;
+    padding: 7px 16px;
+    border: 2px solid white;
+    border-radius: 100% !important;
+    font-size: 40px;
+    color: white;
+    background: transparent;
+    -webkit-transition: background .3s ease-in-out;
+    -moz-transition: background .3s ease-in-out;
+    transition: background .3s ease-in-out;
+    &:hover,
+    &:focus {
+        outline: none;
+        color: white;
+        background: rgba(white, 0.1);
+    }
+    i.animated {
+        -webkit-transition-property: -webkit-transform;
+        -webkit-transition-duration: 1s;
+        -moz-transition-property: -moz-transform;
+        -moz-transition-duration: 1s;
+    }
+    &:hover {
+        i.animated {
+            -webkit-animation-name: pulse;
+            -moz-animation-name: pulse;
+            -webkit-animation-duration: 1.5s;
+            -moz-animation-duration: 1.5s;
+            -webkit-animation-iteration-count: infinite;
+            -moz-animation-iteration-count: infinite;
+            -webkit-animation-timing-function: linear;
+            -moz-animation-timing-function: linear;
+        }
+    }
+}
+
+@-webkit-keyframes pulse {
+    from {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+
+    50% {
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+@-moz-keyframes pulse {
+    from {
+        -moz-transform: scale(1);
+        transform: scale(1);
+    }
+
+    50% {
+        -moz-transform: scale(1.2);
+        transform: scale(1.2);
+    }
+
+    100% {
+        -moz-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+.content-section {
+    padding-top: 100px;
+}
+
+// .gradebook-section {
+//     width: 100%;
+//     padding: 100px 0;
+//     color: white;
+//     background: url(../img/banner/Homepage-GradebookBG.jpg) no-repeat center center scroll;
+//     -webkit-background-size: cover;
+//     -moz-background-size: cover;
+//     background-size: cover;
+//     -o-background-size: cover;
+//     background-attachment: fixed;
+// }
+
+.backgrounded {
+    width: 100%;
+    padding: 100px 0;
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    &.fixed {
+        background-attachment: fixed;    
+    }
+    &.gradebook {
+        background-image: url(../img/banner/Homepage-Gradebook.jpg);
+        @extend .bg-fixed;
+        @extend .white-text;
+    }
+    &.partnering {
+        background-image: url(../img/banner/Homepage-Partnering.jpg);
+        @extend .white-text;
+        @extend .bg-fixed;
+    }    
+}
+
+#map {
+    width: 100%;
+    height: 200px;
+    margin-top: 100px;
+}
+
+@media(min-width:767px) {
+    .content-section {
+        padding-top: 250px;
+    }
+
+    .download-section {
+        padding: 100px 0;
+    }
+
+    #map {
+        height: 400px;
+        margin-top: 250px;
+    }
+    .navbar-custom {
+        background: transparent;
+    }
+}
+
+
+
+ul.banner-social-buttons {
+    margin-top: 0;
+    @media(max-width:1199px) {
+        margin-top: 15px;
+    }
+    @media(max-width:767px) {
+        li {
+            display: block;
+            margin-bottom: 20px;
+            padding: 0;
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+}
+
+footer {
+    padding: 50px 0;
+    p {
+        margin: 0;
+    }
+}
+
+::-moz-selection {
+    text-shadow: none;
+    background: #fcfcfc;
+    background: rgba(white, 0.2);
+}
+
+::selection {
+    text-shadow: none;
+    background: #fcfcfc;
+    background: rgba(white, 0.2);
+}
+
+img::selection {
+    background: transparent;
+}
+
+img::-moz-selection {
+    background: transparent;
+}
+
+body {
+    -webkit-tap-highlight-color: rgba(white, 0.2);
+}
