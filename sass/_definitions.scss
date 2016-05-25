@@ -23,6 +23,8 @@
 .large, .larger {font-size: 2em;}
 .font-reset { font-size: inherit !important;}
 .tall, .Tall { height: 100%; }
+.smaller { font-size: 75%; }
+.tiny { font-size: 55%; }
 
 // Force Full Width
 .Full-Width, .full-width, .fullwidth { max-width: 100% !important; width: 100% !important; }
@@ -59,6 +61,9 @@
 	&.less { 
 		padding-top: 3em; 
 	}
+	&.med { 
+		padding-top: 2em; 
+	}	
 	&.tiny { 
 		padding-top: 1em;  
 	}	
@@ -204,7 +209,78 @@ h1 {
     }        
 }
 
+.btn-circle {
+    width: 70px;
+    height: 70px;
+    margin-top: 15px;
+    padding: 7px 16px;
+    border: 2px solid white;
+    border-radius: 100% !important;
+    font-size: 40px;
+    color: white;
+    background: transparent;
+    -webkit-transition: background .3s ease-in-out;
+    -moz-transition: background .3s ease-in-out;
+    transition: background .3s ease-in-out;
+    &:hover,
+    &:focus {
+        outline: none;
+        color: white;
+        background: rgba(white, 0.1);
+    }
+    i.animated {
+        -webkit-transition-property: -webkit-transform;
+        -webkit-transition-duration: 1s;
+        -moz-transition-property: -moz-transform;
+        -moz-transition-duration: 1s;
+    }
+    &:hover {
+        i.animated {
+            -webkit-animation-name: pulse;
+            -moz-animation-name: pulse;
+            -webkit-animation-duration: 1.5s;
+            -moz-animation-duration: 1.5s;
+            -webkit-animation-iteration-count: infinite;
+            -moz-animation-iteration-count: infinite;
+            -webkit-animation-timing-function: linear;
+            -moz-animation-timing-function: linear;
+        }
+    }
+}
 
+@-webkit-keyframes pulse {
+    from {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+
+    50% {
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+@-moz-keyframes pulse {
+    from {
+        -moz-transform: scale(1);
+        transform: scale(1);
+    }
+
+    50% {
+        -moz-transform: scale(1.2);
+        transform: scale(1.2);
+    }
+
+    100% {
+        -moz-transform: scale(1);
+        transform: scale(1);
+    }
+}
 
 
 /* CUSTOMIZE THE CAROUSEL
@@ -213,17 +289,16 @@ h1 {
 /* Carousel base class */
 .carousel {
   height: 500px;
-  margin-bottom: 60px;
+  // margin-bottom: 60px;
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
-  z-index: 10;
+  // z-index: 10;
 }
 
 /* Declare heights because of positioning of img element */
 .carousel .item {
   height: 500px;
-  @extend .beige;
 }
 .carousel-inner > .item > img {
   position: absolute;
@@ -232,3 +307,15 @@ h1 {
   min-width: 100%;
   height: 500px;
 }
+
+.media {
+	.media-left, .media-right {}
+	.media-body {
+		width: auto;
+	}
+}
+
+
+
+
+

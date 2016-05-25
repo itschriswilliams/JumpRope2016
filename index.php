@@ -99,70 +99,107 @@
 
     <!-- Carousel
     ================================================== -->
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <div id="marketing" class="carousel slide padded-top" data-ride="carousel">
 
       <div class="carousel-inner" role="listbox">
         <div class="item active">
           <div class="container">
-            <div class="carousel-caption">
-              <p>Note: If you're viewing this page via a  the left and right might not load/display properly due to web browser security rules.</p>
+            <div class="carousel-content">
+                <div class="row">
+                    <div class="col-sm-8 col-sm-offset-2">
+                      <p class="ltgrey-text">"At first I thought standards-based grading would be overwhelming, with me drowning in student work and standards, but it has made me a much more efficient grader since I now know exactly what to look for on an assessment."</p>
+                      <p><small class="uppercase">ANDREW KASPRISIN</small><br><span class="lato tiny">Teacher, Essex Middle School</span></p>                    
+                    </div>
+                </div>                    
             </div>
           </div>
         </div>
         <div class="item">
           <div class="container">
-            <div class="carousel-caption">
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-            </div>
-          </div>
-        </div>
-        <div class="item">
-          <div class="container">
-            <div class="carousel-caption">
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+            <div class="carousel-content">
+                <div class="row">
+                    <div class="col-sm-8 col-sm-offset-2">
+                      <p class="ltgrey-text">"Standards-based grading is awesome. It has made me a much more efficient grader since I now know exactly what to look for on an assessment."</p>
+                      <p><small class="uppercase">Richard Fredriksen</small><br><span class="lato tiny">VP, Northwest High School</span></p>                    
+                    </div>
+                </div>                    
             </div>
           </div>
         </div>
       </div>
-      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <a class="left carousel-control" href="#marketing" role="button" data-slide="prev">
         <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
         <span class="sr-only">Previous</span>
       </a>
-      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <a class="right carousel-control" href="#marketing" role="button" data-slide="next">
         <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
         <span class="sr-only">Next</span>
       </a>
     </div><!-- /.carousel -->
 
-
-
-
     <!-- Marketing Section -->
-    <section id="marketing" class="text-center">
+    <section id="marketing-whitepapers" class="text-center">
         <div class="backgrounded beige ltgrey-text">
-            <div class="container">
+            <div class="container white ltgrey-border">
                 <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <h2>Contact Start Bootstrap</h2>
-                        <p>Feel free to email us to provide some feedback on our templates, give us suggestions for new templates and themes, or to just say hello!</p>
-                        <p><a href="mailto:feedback@startbootstrap.com">feedback@startbootstrap.com</a>
-                        </p>
-                        <ul class="list-inline banner-social-buttons">
-                            <li>
-                                <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
-                            </li>
-                            <li>
-                                <a href="https://github.com/IronSummitMedia/startbootstrap" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
-                            </li>
-                            <li>
-                                <a href="https://plus.google.com/+Startbootstrap/posts" class="btn btn-default btn-lg"><i class="fa fa-google-plus fa-fw"></i> <span class="network-name">Google+</span></a>
-                            </li>
-                        </ul>
+                    <div class="col-sm-10 col-sm-offset-1">
+                        <br>
+                        <div class="row">
+                            <div class="col-sm-12 turq line">
+                                <br>
+                            </div>
+                            <div class="col-sm-12">
+                                <div class="row">
+                                    <div class="col-sm-6 padded-top med text-left">
+                                        <div class="media">
+                                          <div class="media-left media-top">
+                                            <a href="#">
+                                              <img class="media-object" src="//placehold.it/64x64" alt="...">
+                                            </a>
+                                          </div>
+                                          <div class="media-body">
+                                            <h4 class="media-heading turq-text">Implementation Benchmarks: Lorem Ipsum Dolor Sit</h4>
+                                            <small class="uppercase">Get The Whitepaper</small>
+                                          </div>
+                                        </div>                                        
+                                    </div>
+                                    <div class="col-sm-6 padded-top med text-left">
+                                        <div class="media">
+                                          <div class="media-left media-top">
+                                            <a href="#">
+                                              <img class="media-object" src="//placehold.it/64x64" alt="...">
+                                            </a>
+                                          </div>
+                                          <div class="media-body">
+                                            <h4 class="media-heading turq-text">Implementation Benchmarks: Lorem Ipsum Dolor Sit</h4>
+                                            <small class="uppercase">Get The Whitepaper</small>
+                                          </div>
+                                        </div>                                       
+                                    </div>                                    
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <br>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
+    <!-- Who We Are Section -->
+    <section id="WhoWeAre" class="text-left">
+        <div class="backgrounded WhoWeAre">
+            <div class="container">
+                <div class="col-md-10">
+                    <h1>Experts in <br>standards-based grading.</h1>
+                    <p>JumpRope was founded by teachers who are passionate about standards-based grading. Our software tailors teacher practice to the way students learn. Built around standards-based principles, our gradebook is the most customizable on the market and works in all different learning environments. We’re facilitating a paradigm shift that empowers students, teachers, and entire school districts.</p>
+                    <a class="btn" href="#">Discover Who We Are</a>
+                </div>
+            </div>
+        </div>
+    </section>    
 
     <!-- Map Section -->
     <div id="map"></div>

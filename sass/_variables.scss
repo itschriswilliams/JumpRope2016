@@ -30,7 +30,7 @@ $colours: (
     color: $colour_value;
   }
   .#{$colour}-border {
-    border-color: $colour_value;
+    border: 1px solid $colour_value;
   }  
 }
 
