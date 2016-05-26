@@ -201,6 +201,37 @@
         </div>
     </section>    
 
+    <!-- Blog Section -->
+    <section id="blog" class="padded">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h4 class="ltturq-text uppercase">From the Blog</h4>
+                </div>
+            </div>
+            <div class="row text-xs-center text-sm-center">
+                <article class="col-sm-1 col-md-4">
+                    <img src="//placehold.it/300x200" alt="">
+                    <br><br>
+                    <p class="small uppercase ltgrey-text nomargin questrial">January 4, 2016</p>
+                    <p class="questrial">Suspendisse tincidunt sem tristique velit varius, quis tincidunt augue.</p>
+                </article>
+                <article class="col-sm-1 col-md-4">
+                    <img src="//placehold.it/300x200" alt="">
+                    <br><br>
+                    <p class="small uppercase ltgrey-text nomargin questrial">January 4, 2016</p>
+                    <p class="questrial">Suspendisse tincidunt sem tristique velit varius, quis tincidunt augue.</p>
+                </article>
+                <article class="col-sm-1 col-md-4">
+                    <img src="//placehold.it/300x200" alt="">
+                    <br><br>
+                    <p class="small uppercase ltgrey-text nomargin questrial">January 4, 2016</p>
+                    <p class="questrial">Suspendisse tincidunt sem tristique velit varius, quis tincidunt augue.</p>
+                </article>                                
+            </div>
+        </div>
+    </section>
+
     <!-- Map Section -->
     <div id="map"></div>
 
