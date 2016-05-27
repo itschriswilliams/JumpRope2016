@@ -52,6 +52,10 @@
 		padding-top: 1.2em;
 		padding-bottom:1.2em;
 	}	
+	&.med { 
+		padding-top: 2em; 
+		padding-bottom: 2em;
+	}	
 	&.all {
 		padding: 3em;
 	}
@@ -323,21 +327,21 @@ h1 {
 // .text-xs-center { text-align: center; }
 // .text-xs-justify { text-align: justify; }
 
-// @media (min-width: $screen-sm-min) {
+// @media (min-width: @screen-sm-min) {
 //     .text-sm-left { text-align: left; }
 //     .text-sm-right { text-align: right; }
 //     .text-sm-center { text-align: center; }
 //     .text-sm-justify { text-align: justify; }
 // }
 
-// @media (min-width: $screen-md-min) {
+// @media (min-width: @screen-md-min) {
 //     .text-md-left { text-align: left; }
 //     .text-md-right { text-align: right; }
 //     .text-md-center { text-align: center; }
 //     .text-md-justify { text-align: justify; }
 // }
 
-// @media (min-width: $screen-lg-min) {
+// @media (min-width: @screen-lg-min) {
 //    .text-lg-left { text-align: left; }
 //    .text-lg-right { text-align: right; }
 //    .text-lg-center { text-align: center; }

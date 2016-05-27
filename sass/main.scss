@@ -242,13 +242,22 @@ a {
         // filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00a7c0',GradientType=0 ); /* IE6-9 */
         @extend .white-text;
         // @extend .bg-fixed;
-
         background: #00a7c0;
         background-image: url(../img/banner/Homepage-WhoWeAreSwatch3.png); /* fallback */
         background-image: url(../img/banner/Homepage-WhoWeAreSwatch3.png), linear-gradient(to bottom,  rgba(255,255,255,.15) 0%,rgba(0,167,192,.15) 100%); /* W3C */
         background-repeat: repeat;
         background-attachment: fixed;
-    }        
+    }   
+    &.footer {
+        padding: 0;
+        background-size: inherit;        
+        @extend .white-text;        
+        background: #005d80;
+        background-image: url(../img/banner/Global-FooterSwatch.png); /* fallback */
+        background-image: url(../img/banner/Global-FooterSwatch.png), linear-gradient(to bottom,  rgba(255,255,255,.15) 0%,rgba(0,93,128,.15) 100%); /* W3C */
+        background-repeat: repeat;
+        // background-attachment: fixed;        
+    }         
 }
 
 .carousel#marketing{
@@ -322,9 +331,54 @@ ul.banner-social-buttons {
 }
 
 footer {
-    padding: 50px 0;
-    p {
-        margin: 0;
+    // padding: 50px 0;
+    font-size: .95em;
+    @extend .lato;
+    & p {
+        margin: 0 0 1em 0;
+        font-size: .95em;
+        &.copyright {
+            font-size: 1.5em;
+            @extend .lato;
+            a {
+                @extend .white-text;
+                @extend .underline;
+            }
+        }
+    }
+    h5 {
+        @extend .questrial;
+        margin-bottom: .75em;
+    }
+    & ul.footernav {
+        list-style-type: none;
+        margin: none;
+        padding: 0;
+        & li {
+            line-height: 2em;
+            & a {
+                @extend .white-text;
+            }
+        }
+    }
+    form#NotebookForm {
+        input[type=email] {
+            @include border-radius(0); 
+            width: 65%;
+            @extend .ltgrey-border;
+            &::-webkit-input-placeholder {
+               font-size: .75em;
+            }
+            &:-moz-placeholder { /* Firefox 18- */
+               font-size: .75em;
+            }
+            &::-moz-placeholder {  /* Firefox 19+ */
+               font-size: .75em;
+            }
+            &:-ms-input-placeholder {  
+               font-size: .75em;
+            }            
+        }
     }
 }
 
