@@ -24,7 +24,7 @@
 .font-reset { font-size: inherit !important;}
 .tall, .Tall { height: 100%; }
 .smaller { font-size: 75%; }
-.tiny { font-size: 55%; }
+.tiny-text { font-size: 55%; }
 
 // Force Full Width
 .Full-Width, .full-width, .fullwidth { max-width: 100% !important; width: 100% !important; }
@@ -201,6 +201,15 @@ h1 {
             @extend .grey;
         }
     }    
+    &.ltgrey {
+        @extend .ltgrey-border;
+        @extend .ltgrey-text;
+        &:hover,
+        &:focus {
+            color: white;
+            @extend .ltgrey;
+        }
+    }        
     &.turq {
         @extend .white-border;
         @extend .white-text;

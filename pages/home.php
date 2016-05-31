@@ -1,5 +1,5 @@
     <!-- Intro Banner -->
-    <section class="intro">
+    <section class="intro home">
         <div class="intro-body">
             <div class="container">
                 <div class="row">

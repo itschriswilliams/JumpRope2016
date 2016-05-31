@@ -2,7 +2,7 @@
     <ul class="nav navbar-nav">
         <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
         <li>
-            <a href="#">Classroom Solutions</a>
+            <a href="index.php?page=classroom-solutions">Classroom Solutions</a>
         </li>
         <li>
             <a href="#">Proven Partners</a>

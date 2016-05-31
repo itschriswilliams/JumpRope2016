@@ -23,7 +23,7 @@ h3,
 h4,
 h5,
 h6 {
-    margin: 0 0 35px;
+    margin: 0 0 .5em;
     font-family: 'Questrial', sans-serif;
     letter-spacing: 1px;
 }
@@ -121,7 +121,8 @@ a {
                         @extend .turq;
                         &:hover {
                             @extend .orange;
-                            @extend .orange-border;                            
+                            @extend .orange-border;  
+                            color: white !important;                          
                         }
                     }
                 }
@@ -160,12 +161,20 @@ a {
     padding: 100px 0;
     text-align: center;
     color: white;
-    background: url(../img/banner/Homepage-Intro.jpg) no-repeat bottom center scroll;
     background-color: black;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    &.home {
+        background: url(../img/banner/Homepage-Intro.jpg) no-repeat bottom center scroll;        
+    }
+    &.classroom-solutions {
+        background: url(../img/banner/ClassroomSolutions-Intro.jpg) no-repeat bottom center scroll;        
+    }    
+    &.cpt {
+        background: url(../img/banner/CPT-Intro.jpg) no-repeat bottom center scroll;        
+    }        
     .intro-body {
         display: table-cell;
         vertical-align: middle;
@@ -260,6 +269,50 @@ a {
     }         
 }
 
+
+.sqimg {
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;    
+    &.cpt1 {
+        background-image: url(../img/banner/SquareImage5.jpg);
+    }
+    &.cpt2 {
+        background-image: url(../img/banner/SquareImage4.jpg);
+    }        
+}
+
+.cpt1bg {
+    &:after {
+        content: "";
+        background-image: url(../img/banner/Homepage-WhoWeAreSwatch3.png); /* fallback */
+        background-repeat: repeat;
+        opacity: 0.15;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        position: absolute;
+        background-size: 45px;
+    }
+}
+.carat {
+    &:before {
+        position: absolute;
+        left: 3em;
+        top: 0;
+        content: "";
+        width: 0;
+        height: 0;
+        border-left: 12px solid transparent;
+        border-right: 12px solid transparent;
+        border-top: 13px solid white;
+    }    
+}
+
 .carousel#marketing{
     .carousel-control.left, .carousel-control.right  {
         background-image: none !important;
@@ -338,7 +391,7 @@ footer {
         margin: 0 0 1em 0;
         font-size: .95em;
         &.copyright {
-            font-size: 1.5em;
+            // font-size: 1.5em;
             @extend .lato;
             a {
                 @extend .white-text;
