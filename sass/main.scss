@@ -174,7 +174,10 @@ a {
     }    
     &.cpt {
         background: url(../img/banner/CPT-Intro.jpg) no-repeat bottom center scroll;        
-    }        
+    }     
+    &.gradebook {
+        background: url(../img/banner/Gradebook-Intro.jpg) no-repeat bottom center scroll;        
+    }            
     .intro-body {
         display: table-cell;
         vertical-align: middle;
@@ -283,6 +286,12 @@ a {
     &.cpt2 {
         background-image: url(../img/banner/SquareImage4.jpg);
     }        
+    &.gradebook1 {
+        background-image: url(../img/banner/SquareImage1.jpg);        
+    }
+    &.gradebook2 {
+        background-image: url(../img/banner/SquareImage3.jpg);        
+    }    
 }
 
 .cpt1bg {
