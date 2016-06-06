@@ -77,8 +77,8 @@
                 <h4 class="white-text questrial">With deep roots in standards-based teaching and learning philosophy, our gradebook creates reports personalized for your students. </h4>
                 <p class="small white-text lato">Built from the ground up as a standards-based gradebook, JumpRope understands what your grading goals are. No more fighting with traditional gradebooks or trying to fit a square peg into a round hole. It’s a powerful tool that identifies challenges, furthers instructional goals, and shifts teacher practice.</p>
             </div>
-            <div class="col-sm-6 ltturq padded all sqimg gradebook1">
-                &nbsp;
+            <div class="col-sm-6 ltturq padded all sqimg gradebook1 wpp-wrap">
+                <?php include 'includes/wpp-feat.php' ?>  
             </div>
         </div>
     </div>

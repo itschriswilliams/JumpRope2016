@@ -278,12 +278,16 @@ a {
 
 
 .sqimg {
+    min-height: 215px;
     background-repeat: no-repeat;
     background-position: center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;    
+    @media(min-width:767px) {
+        min-height: inherit;
+    }    
     &.cpt1 {
         background-image: url(../img/banner/SquareImage5.jpg);
     }
@@ -297,6 +301,8 @@ a {
         background-image: url(../img/banner/SquareImage3.jpg);        
     }    
 }
+
+
 
 .cpt1bg {
     &:after {
@@ -332,6 +338,30 @@ a {
         border-right: 12px solid transparent;
         border-top: 13px solid white;
     }    
+}
+.wpp-wrap {
+    position: relative;
+    .wpp {
+        position: absolute;
+        bottom: -10%;
+        left: 10%;
+        width: 85%;
+        &:after {
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            left: 10px;
+            top: 10px;
+            background-color: grey;
+            z-index: -1;
+            opacity: .7;
+        }
+    }    
+}
+
+.line {
+    line-height: .95em;
 }
 
 .carousel#marketing{

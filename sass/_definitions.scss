@@ -136,7 +136,11 @@ ul.list {
 
 // Flex Fix
 .flex {
-	display: flex;
+	flex-direction: column;
+	@media(min-width:767px) {
+		display: flex;
+		flex-direction: row;
+	}
 }
 
 // Image Fix
@@ -220,6 +224,11 @@ h1 {
             @extend .white;
         }
     }        
+}
+.animate {
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    transition: all .3s linear;
 }
 
 .btn-circle {
