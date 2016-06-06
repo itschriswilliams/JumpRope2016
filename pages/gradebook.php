@@ -84,6 +84,112 @@
     </div>
 </section>
 
+<section class="solutions margined">
+    <div class="container">
+            <div class="row">
+                <div class="col-sm-10 col-sm-offset-1 text-center">
+                    <img src="//placehold.it/90x90" alt="">
+                    <br><br>
+                    <h3>Calculation methods to fit any grading philosophy.</h3>
+                    <p class="ltgrey-text">We believe your district’s standards-based philosophy should determine your calculation method, not the other way around. Have questions about how each calculation method and custom report works—and which ones best suits your objectives? Rely on our expertise in standards-based education. <span class="blue-text">We can guide you through the options.</span> </p>
+                    <a class="btn ltgrey" href="#">Contact Us to Learn More</a>
+                </div>              
+            </div>
+            <div class="row padded">
+                <div class="col-xs-11 col-xs-offset-1 col-sm-5 col-sm-offset-1">
+                    <ul class="gradebook-features">
+                        <li>Ability to track formative and summative assessments.</li>
+                        <li>Generate both proficiency-based transcripts and course-based transcripts. </li>
+                        <li>Multi-year data reporting, across classes. </li>
+                    </ul>
+                </div>
+                <div class="col-xs-11 col-xs-offset-1 col-sm-5">
+                    <ul class="gradebook-features">
+                        <li>Report habits of work separately from academic standards</li>
+                        <li>Dual reporting of grades as an option, giving parents the standard’s rubric scores as well as traditional grades </li>
+                        <li>Bulk reporting tools so you can generate progress reports for the whole school that can be emailed home or printed out. </li>
+                    </ul>
+                </div>                
+            </div>
+            <div class="row margined less">
+                <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 blue text-center padded all">
+                    <h4 class="ltturq-text questrial">Implementing a successful standards-based grading program takes more than just software. It requires a shift in philosophy.</h4>
+                    <br>
+                    <h6><a href="#" class="uppercase white-text">LEARN HOW JUMPROPE CAN HELP WITH IMPLEMENTATION</a></h6>
+                </div>
+            </div>
+    </div>
+</section>
+
+    <!-- District & Administrative Section -->
+    <section id="district-admin" class="text-left margined-bottom">
+        <div class="backgrounded district-admin">
+            <div class="container">
+                <div class="col-md-6">
+                <h5 class="questrial turq-text uppercase margined-bottom tiny">DISTRICT AND ADMINISTRATIVE TOOLS</h5>
+                <h3 class="questrial grey-text">Our gradebook is designed to help you save valuable administrative time. </h3>
+                <p class="small lato ltgrey-text">JumpRope grew up in small schools and districts with very little tech support staff. Many of our implementations are managed by the curriculum team with little support from the tech folks at the district. Designed with simplicity in mind, JumpRope is easy enough to use that it doesn’t add significant burden to over-worked tech staff at the district.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<section class="solutions margined">
+    <div class="container">
+            <div class="row">
+                <div class="col-sm-10 col-sm-offset-1 text-center">
+                    <img src="//placehold.it/90x90" alt="">
+                    <br><br>
+                    <h3>Administrative tools that let you focus on the big picture</h3>
+                    <p class="ltgrey-text">We’ve built district administration tools that let you manage your district’s standards and settings to find the balance between compliance and flexibility that best meets your needs. We also offer <span class="blue-text">consulting and technical support</span> to help you get set up and roll out the software to all teachers.</span> </p>
+                </div>              
+            </div>
+            <div class="row padded">
+                <div class="col-xs-11 col-xs-offset-1 col-sm-5 col-sm-offset-1">
+                    <ul class="gradebook-features">
+                        <li>Direct support for administrators.</li>
+                        <li>Set district-wide grading policies that can be customized for each grade-span.</li>
+                        <li>Daily automated imports from your SIS reduces data entry and time spent messing with spreadsheets.</li>
+                    </ul>
+                </div>
+                <div class="col-xs-11 col-xs-offset-1 col-sm-5">
+                    <ul class="gradebook-features">
+                        <li>Customizeable progress reports, report cards and transcripts to fit your district’s preferences.</li>
+                        <li>District wide custom reporting to stay informed and communicate goals.</li>
+                        <li>Data admin tools to work directly with the data stored in JumpRope.</li>
+                    </ul>
+                </div>                
+            </div>
+    </div>
+</section>
+
+<section class="customer-support">
+    <div class="container">
+        <div class="row flex">
+            <div class="col-sm-6 ltturq padded all cpt1bg">
+                <h5 class="questrial turq-text uppercase margined less">Customer Support</h5>
+                <h4 class="white-text questrial">Founded by teachers steeped in standards-based education, we understand your challenges, questions, and concerns.</h4>
+                <p class="small white-text lato">JumpRope is committed to implementing our software in a way that satisfies the needs of individual school systems and simplifies the work of multi-tasking educators. JumpRope’s expert staff not only provides direct support for teachers, but also offers a wide array of training options. Online and onsite software assistance are also available.</p>
+            </div>
+            <div class="col-sm-6 ltturq padded all sqimg gradebook2">
+                &nbsp;
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="solutions margined">
+    <div class="container">
+            <div class="row">
+                <div class="col-sm-10 col-sm-offset-1 text-center">
+                    <h3>Our staff has expert knowledge of standards-based grading and learning. </h3>
+                    <p class="ltgrey-text">Draw on our experience to guide you through this transformative process. Overhauling the way your district operates is a tremendous job worth doing well. We’re trained to anticipate your questions, foresee your challenges, and address your concerns.</p>
+                    <p class="ltgrey-text">Don’t be afraid to discuss your anxieties—as a school improvement company, we understand the work involved for your district.</p>
+                    <a class="btn ltgrey" href="#">Contact Us to Get Started</a>
+                </div>              
+            </div>
+    </div>
+</section>
 
 <section class="productBar">
     <div class="container">

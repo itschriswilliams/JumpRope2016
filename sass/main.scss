@@ -237,6 +237,10 @@ a {
         @extend .bg-fixed;
         @extend .white-text;
     }
+    &.district-admin {
+        background-image: url(../img/banner/Gradebook-DistrictAdmin.jpg);
+        @extend .white-text;
+    }
     &.partnering {
         background-image: url(../img/banner/Homepage-Partnering.jpg);
         @extend .white-text;
@@ -381,7 +385,23 @@ a {
     }
 }
 
-
+ul.gradebook-features {
+    list-style-type: none;
+    padding-left: 15px;
+    li {
+        margin-bottom: 1.5em;
+        position: relative;
+        &:before {
+            content: "";
+            background: url(../img/sub/LiCheck.svg) no-repeat;
+            width: 12px;
+            height: 10px;
+            position: absolute;
+            left: -2em;
+            top: .25em;
+        }
+    }
+}
 
 ul.banner-social-buttons {
     margin-top: 0;
