@@ -346,6 +346,11 @@ a {
         bottom: -10%;
         left: 10%;
         width: 85%;
+        & > .row {
+            @media(max-width:767px) {
+                margin: 0 15px;
+            }            
+        }
         &:after {
             content: '';
             position: absolute;
@@ -364,6 +369,16 @@ a {
     line-height: .95em;
 }
 
+.gb-feats {
+    & .gb-feat {        
+        &:nth-child(5) {
+            clear: left;
+            @media(min-width:989px) {
+                clear: none;
+            }
+        }        
+    }
+}
 .carousel#marketing{
     .carousel-control.left, .carousel-control.right  {
         background-image: none !important;

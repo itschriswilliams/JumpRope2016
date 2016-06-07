@@ -3,7 +3,7 @@
     <div class="col-sm-10 col-sm-offset-1">
       <br>
       <div class="row">
-        <div class="col-sm-12 turq line margined-top tiny">
+        <div class="col-sm-12 <?php echo $hrcolor;?> line margined-top tiny">
           <br></div>
         <div class="col-sm-12">
           <div class="row">
@@ -14,7 +14,7 @@
                     <img class="media-object" src="//placehold.it/64x64" alt="..."></a>
                 </div>
                 <div class="media-body">
-                  <h4 class="media-heading turq-text">Implementation Benchmarks: Lorem Ipsum Dolor Sit</h4>
+                  <h4 class="media-heading <?php echo $hrcolor;?>-text">Implementation Benchmarks: Lorem Ipsum Dolor Sit</h4>
                   <small class="uppercase">Get The Whitepaper</small>
                 </div>
               </div>
