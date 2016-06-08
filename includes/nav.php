@@ -5,7 +5,7 @@
             <a href="index.php?page=classroom-solutions">Classroom Solutions</a>
         </li>
         <li>
-            <a href="#">Proven Partners</a>
+            <a href="index.php?page=partners">Proven Partners</a>
         </li>
         <li>
             <a href="#">Who We Are</a>

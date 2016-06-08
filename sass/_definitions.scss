@@ -23,7 +23,7 @@
 .large, .larger {font-size: 2em;}
 .font-reset { font-size: inherit !important;}
 .tall, .Tall { height: 100%; }
-.smaller { font-size: 75%; }
+.smaller { font-size: 16px; }
 .tiny-text { font-size: 55%; }
 
 // Force Full Width
@@ -40,6 +40,10 @@
 .padded { 
 	padding-top: 5em; 
 	padding-bottom: 5em; 
+	&.more {
+		padding-top: 7em; 
+		padding-bottom: 7em; 		
+	}
 	&.less { 
 		padding-top: 3em; 
 		padding-bottom: 3em;
@@ -57,7 +61,8 @@
 		padding-bottom: 2em;
 	}	
 	&.all {
-		padding: 3em;
+		padding-left: 3em;
+		padding-right: 3em;		
 	}
 }
 .padded-top { 
@@ -87,6 +92,10 @@
 .margined { 
 	margin-top: 5em; 
 	margin-bottom: 5em; 
+	&.more {
+		padding-top: 7em; 
+		padding-bottom: 7em; 		
+	}	
 	&.less { 
 		margin-top: 3em; 
 		margin-bottom: 3em;
