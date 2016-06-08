@@ -170,13 +170,13 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-10 col-sm-offset-1 text-center">
-                <h3>We’re not just software pioneers – we’re a school improvement company.</h3>
+                <h3>
+                    We’re not just software pioneers – we’re a school improvement company.
+                </h3>
                 <p class="ltgrey-text">
                     We offer opportunities to deepen your standards based teaching and learning philosophy and reap the full benefits of the system. If you’re looking for a proven way to successfully implement standards based grading, call us. We’ll help clarify your philosophy, identify your challenges, and provide you with the tools to make this momentous shift easier for teachers, students, and parents.
                 </p>
-                <p class="turq-text">
-                    There’s lots of work to be done...let’s get started!
-                </p>
+                <p class="turq-text">There’s lots of work to be done...let’s get started!</p>
             </p>
         </div>
     </div>
@@ -187,13 +187,15 @@
 <div class="container">
     <div class="row flex">
         <div class="col-sm-6 ltturq padded all productBar">
-            <h5 class="questrial turq-text uppercase margined less">IMPLEMENTATION SERVICES</h5>
-            <h4 class="white-text questrial">
-                JumpRope’s implementation services are second to none.
-            </h4>
-            <p class="small white-text lato">
-                We’ve invested in holistic solutions to ensure our software is successfully implemented and administered in your district. Transformation takes work. Thanks to JumpRope’s experts in standards-based philosophy, the transition is fluid, not frustrating.
-            </p>
+            <div class="row">
+                <div class="col-xs-9 col-xs-offset-1">
+                    <h5 class="questrial turq-text uppercase margined less">IMPLEMENTATION SERVICES</h5>
+                    <h4 class="white-text questrial">JumpRope’s implementation services are second to none.</h4>
+                    <p class="small white-text lato">
+                        We’ve invested in holistic solutions to ensure our software is successfully implemented and administered in your district. Transformation takes work. Thanks to JumpRope’s experts in standards-based philosophy, the transition is fluid, not frustrating.
+                    </p>
+                </div>
+            </div>
         </div>
         <div class="col-sm-6 ltturq padded all sqimg partners2 wpp-wrap">
             <?php 
@@ -206,26 +208,32 @@
 
 <section class="solutions margined">
 <div class="container">
-        <div class="row margined-top">
-            <div class="col-sm-10 col-sm-offset-1 text-center">
-                <img src="//placehold.it/90x90" alt="">
-                <br>
-                <br>
-                <h3>We help your district through every step in the process. </h3>
-                <p class="ltgrey-text">
-                    Our work begins before any software is installed. We partner with key leaders to discuss your district’s goals and philosophy, developing an implementation process that is precise, effective, and customized.                
-                </p>
-                <br>
-                <div class="row text-left">
-                    <div class="col-sm-6">
-                        <p class="small">With our comprehensive <a href="#" class="blue-text">gradebook</a>, you’ll be empowered to craft a standards-based system that works for you, master the software to maintain the process, and execute assessments to transform teacher practice.</p>                        
-                    </div>
-                    <div class="col-sm-6">
-                        <p class="small">But the job isn’t finished there. Rather than installing the customized software and moving on to the next district, JumpRope offers consulting and professional development services to ensure that administrators, teachers, parents, and students gain the full benefit of our tools.</p>                        
-                    </div>                    
+    <div class="row margined-top">
+        <div class="col-sm-10 col-sm-offset-1 text-center">
+            <img src="//placehold.it/90x90" alt="">
+            <br>
+            <br>
+            <h3>We help your district through every step in the process.</h3>
+            <p class="ltgrey-text">
+                Our work begins before any software is installed. We partner with key leaders to discuss your district’s goals and philosophy, developing an implementation process that is precise, effective, and customized.
+            </p>
+            <br>
+            <div class="row text-left">
+                <div class="col-sm-6">
+                    <p class="small">
+                        With our comprehensive
+                        <a href="#" class="blue-text">gradebook</a>
+                        , you’ll be empowered to craft a standards-based system that works for you, master the software to maintain the process, and execute assessments to transform teacher practice.
+                    </p>
+                </div>
+                <div class="col-sm-6">
+                    <p class="small">
+                        But the job isn’t finished there. Rather than installing the customized software and moving on to the next district, JumpRope offers consulting and professional development services to ensure that administrators, teachers, parents, and students gain the full benefit of our tools.
+                    </p>
                 </div>
             </div>
         </div>
+    </div>
     <div class="row margined tiny">
         <div class="col-xs-10 col-xs-offset-1 text-center margined-top less">
             <hr class="ltturq">
@@ -234,6 +242,78 @@
     </div>
 </div>
 </section>
+
+<section class="transforming-practice margined-bottom">
+<div class="container">
+    <div class="row flex">
+        <div class="col-sm-6 ltturq wavy padded">
+            <div class="row">
+                <div class="col-xs-9 col-xs-offset-1">
+                    <h5 class="questrial turq-text uppercase margined less">Transforming Teacher Practice</h5>
+                    <h4 class="white-text questrial">
+                        JumpRope’s software creates a seismic shift in the classroom.
+                    </h4>
+                    <p class="small white-text lato">
+                        It transforms standards based learning theory into successful teaching practice.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 ltturq padded all sqimg partners3 wpp-wrap">
+            <?php 
+                    $hrcolor = 'blue';
+                    include 'includes/wpp-feat.php'; 
+                ?></div>
+    </div>
+</div>
+</section>
+
+<section class="solutions margined-top">
+<div class="container">
+    <div class="row margined-top">
+        <div class="col-sm-10 col-sm-offset-1 text-center">
+            <h3>We recognize teaching is demanding work requiring tremendous personal investment. With JumpRope, this effort becomes central to the educational process. </h3>
+            <p class="ltgrey-text">
+                Instead of creating a gradebook that merely computes data, we’ve devised technology that focuses on the way students learn, how they are taught, and the manner in which they are assessed. The diligence teachers exert becomes demonstrated, not diluted. It’s not a surface solution; it’s a powerful trigger for profound change.
+            </p>
+        </div>
+    </div>
+</div>
+</section>
+
+<section class="casestudy-wp margined">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-10 col-sm-offset-1 text-center">
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    <h5 class="questrial turq-text uppercase margined less margined less">CASE STUDIES AND WHITE PAPERS</h5>
+                    <br>
+                    <h3 class="ltgrey-text margined-bottom less">Discover more ways JumpRope can help your district. Explore studies of successful schools, read papers about best practices, and more. </h3>                    
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 col-sm-offset-1 text-center">
+                    <img src="//placehold.it/90x90" alt="">
+                    <br><br>
+                    <h3>Case Studies</h3>
+                    <p class="small ltgrey-text">Detailed studies of the challenges faced and processes employed by different schools. Learn how JumpRope contributed to these standards-based success stories.</p>
+                    <h5><a class="uppercase bold  ltgrey-text" href="#">Read the Case Studies</a></h5>
+                </div>
+                <div class="col-sm-4 col-sm-offset-2 text-center">
+                    <img src="//placehold.it/90x90" alt="">
+                    <br><br>
+                    <h3>White Papers</h3>
+                    <p class="small ltgrey-text">Assess your needs as you transition to standards-based grading, explore our implementation benchmarks, and learn more about different calculation methods.</p>
+                    <h5><a class="uppercase bold ltgrey-text" href="#">READ THE WHITE PAPERS</a></h5>
+                </div>                
+            </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
 
 <section class="productBar">
 <div class="container">
