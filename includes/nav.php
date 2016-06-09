@@ -8,7 +8,7 @@
             <a href="index.php?page=partners">Proven Partners</a>
         </li>
         <li>
-            <a href="#">Who We Are</a>
+            <a href="index.php?page=whoweare">Who We Are</a>
         </li>
         <li>
             <a href="#">Blog</a>

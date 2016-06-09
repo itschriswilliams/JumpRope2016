@@ -547,6 +547,58 @@ ul.banner-social-buttons {
     }
 }
 
+.team-member {
+    margin-bottom: 6em;
+    .member-pic {
+        margin-bottom: 1em;
+    }
+    .member-name {
+        margin-bottom: .25em;
+    }
+    .member-title {
+        margin-bottom: 1em;
+        @extend .ltgrey-text;
+    }
+    .member-bio {
+        font-size: 1em;
+        @extend .ltgrey-text; 
+        margin-bottom: 1em;       
+    }
+    .member-readmore {
+        font-size: .97em;
+        margin-bottom: 1em;
+        a {
+            @extend .uppercase;
+            @extend .blue-text;
+        }            
+    }
+    .member-social {
+        font-size: .85em;
+        a {
+            float: left;
+            display: inline-block;
+            @extend .ltturq-text;
+            position: relative;
+            margin-left: 3em;
+            &:first-child {
+                margin-left: 1.5em;
+            }
+            &:hover {
+                @extend .turq-text;
+            }
+            &:before {
+                content: '';
+                width: 13px;
+                height: 13px;
+                position: absolute;
+                left: -1.5em;
+                top: 3px;
+                background: url(http://placehold.it/13x13) no-repeat;
+            }
+        }
+    }
+}
+
 footer {
     // padding: 50px 0;
     font-size: .95em;

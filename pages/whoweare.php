@@ -63,22 +63,29 @@
     <section class="solutions padded-bottom">
         <div class="container">
             <div class="row">
-                <div class="col-sm-8 col-sm-offset-2 text-center">
-                    <img src="//placehold.it/90x90" alt="">
-                    <br>
-                    <br>
-                    <h3>
-                        Contact us to get more information about the Curriculum Planning Tool.
-                    </h3>
-                    <p class="small ltgrey-text">
-                        The Curriculum Planning Tool is designed to work on its own. But it’s also an ideal first step before implementing JumpRope’s acclaimed standards-based gradebook. Together, with JumpRope’s consulting services, they round out the ecosystem of a successful standards-based practice.
+                <div class="col-sm-10 col-sm-offset-1 text-center">
+                    <h5 class="questrial turq-text uppercase margined less">Our Team</h5>
+                    <p class="smaller ltgrey-text">
+                        When you partner with JumpRope, you work with educators and engineers who not only embrace standards-based grading, but understand how to make it work for your school district. Read more about our team’s experience and expertise. 
                     </p>
-                    <a class="btn ltgrey" href="#">Contact Us to Learn More</a>
                 </div>
             </div>
 
         </div>
     </section>
+
+<section class="team margin">
+    <div class="container">
+        <div class="row">
+            <?php include "includes/team-member.php" ?>
+            <?php include "includes/team-member.php" ?>
+            <?php include "includes/team-member.php" ?>
+            <?php include "includes/team-member.php" ?>
+            <?php include "includes/team-member.php" ?>
+            <?php include "includes/team-member.php" ?>  
+        </div>
+    </div>
+</section>
 
     <section class="productBar">
         <div class="container">
