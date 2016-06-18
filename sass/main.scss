@@ -184,6 +184,10 @@ a {
     &.whoweare {
         background: url(../img/banner/WhoWeAre-Intro.jpg) no-repeat bottom center scroll;        
     }   
+    &.blog {
+        background-image: url(../img/banner/Homepage-Gradebook.jpg);
+        height: auto !important;
+    }    
     .intro-body {
         display: table-cell;
         vertical-align: middle;
@@ -256,32 +260,59 @@ a {
         background-image: url(../img/banner/Partners-Consulting.jpg);
     }       
     &.WhoWeAre {
-        // background: #80CFDC url(../img/banner/Homepage-WhoWeAreSwatch.png) repeat;
         background-size: inherit;
-        // @extend .turq;
-        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,00a7c0+100 */
-        // background: rgb(255,255,255); /* Old browsers */
-        // background: -moz-linear-gradient(top,  rgba(255,255,255,.41) 0%, rgba(0,.4167,.4192,.41) 100%); /* FF3.6-15 */
-        // background: -webkit-linear-gradient(top,  rgba(255,255,255,.41) 0%,rgba(0,.4167,.4192,.41) 100%); Chrome10-25,Safari5.1-6
-        // background: linear-gradient(to bottom,  rgba(255,255,255,.41) 0%,rgba(0,.4167,.4192,.41) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-        // filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00a7c0',GradientType=0 ); /* IE6-9 */
         @extend .white-text;
-        // @extend .bg-fixed;
-        background: #00a7c0;
-        background-image: url(../img/banner/Homepage-WhoWeAreSwatch3.png); /* fallback */
-        background-image: url(../img/banner/Homepage-WhoWeAreSwatch3.png), linear-gradient(to bottom,  rgba(255,255,255,.15) 0%,rgba(0,167,192,.15) 100%); /* W3C */
+        // background-color: #00a7c0;
+        background-image: linear-gradient(to bottom,  rgba(26,167,190,1) 0%,rgba(21,143,170,1) 100%); /* W3C */
         background-repeat: repeat;
         background-attachment: fixed;
+        position: relative;
+        & * {
+            position: relative;
+            z-index: +1;
+        }
+        &:before {
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            opacity: .8;
+            background-image: url(../img/banner/wavy2.svg);
+            background-repeat: repeat;
+            background-size: 55px;
+            background-blend-mode: multiply;
+            fill: #94d31b; 
+
+        }        
     }   
     &.footer {
         padding: 0;
         background-size: inherit;        
         @extend .white-text;        
         background: #005d80;
-        background-image: url(../img/banner/Global-FooterSwatch.png); /* fallback */
-        background-image: url(../img/banner/Global-FooterSwatch.png), linear-gradient(to bottom,  rgba(255,255,255,.15) 0%,rgba(0,93,128,.15) 100%); /* W3C */
+        background-image: linear-gradient(to bottom,  rgba(255,255,255,.15) 0%,rgba(0,93,128,.15) 100%); /* W3C */
         background-repeat: repeat;
         // background-attachment: fixed;        
+        position: relative;
+        &:before {
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            opacity: .35;
+            background-image: url(../img/banner/Global-FooterSwatch.png);
+            background-repeat: repeat;
+            background-size: 55%;
+        }
+
     }         
 }
 .gridded {
