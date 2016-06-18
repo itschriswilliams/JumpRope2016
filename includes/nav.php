@@ -11,7 +11,7 @@
             <a href="index.php?page=whoweare">Who We Are</a>
         </li>
         <li>
-            <a href="#">Blog</a>
+            <a href="index.php?page=blog">Blog</a>
         </li>        
         <li>
             <a href="#">Contact</a>

@@ -6,7 +6,7 @@
                 <div class="row">
                     <div class="col-sm-6">
                         <a href="#">
-                            <img class="ltgrey" src="http://placehold.it/505x335" width="505" height="335" alt=""></a>
+                            <img class="ltgrey" src="http://placehold.it/505" alt=""></a>
                     </div>
                     <div class="col-sm-6 text-left">
                         <h5 class="questrial turq-text uppercase margined-bottom margined-top less">JANUARY 4, 2016</h5>
@@ -49,7 +49,7 @@
                     <div class="row">
                         <div class="col-sm-4">
                             <a href="#">
-                                <img class="ltgrey" src="http://placehold.it/505x335" width="505" height="335" alt=""></a>
+                                <img class="ltgrey" src="http://placehold.it/505x335" alt=""></a>
                         </div>
                         <div class="col-sm-8 text-left">
                             <h5 class="questrial turq-text uppercase margined-bottom margined-top less">JANUARY 4, 2016</h5>
