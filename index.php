@@ -28,7 +28,11 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-<?php $page = htmlspecialchars($_GET["page"]);?>
+<?php $page = htmlspecialchars($_GET["page"]);
+    if ($page == '') {
+        $page = "home";
+    }
+?>
 
 </head>
 
