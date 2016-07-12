@@ -27,6 +27,9 @@ h6 {
     font-family: 'Questrial', sans-serif;
     letter-spacing: 1px;
 }
+h4 {
+    line-height: 1.5em;
+}
 
 p {
     margin: 0 0 1.5em;
@@ -167,22 +170,22 @@ a {
     background-size: cover;
     -o-background-size: cover;
     &.home {
-        background: url(../img/banner/Homepage-Intro.jpg) no-repeat bottom center scroll;        
+        background-image: url(../img/banner/Homepage-Intro.jpg);        
     }
     &.classroom-solutions {
-        background: url(../img/banner/ClassroomSolutions-Intro.jpg) no-repeat bottom center scroll;        
+        background-image: url(../img/banner/ClassroomSolutions-Intro.jpg);        
     }    
     &.cpt {
-        background: url(../img/banner/CPT-Intro.jpg) no-repeat bottom center scroll;        
+        background-image: url(../img/banner/CPT-Intro.jpg);        
     }     
     &.gradebook {
-        background: url(../img/banner/Gradebook-Intro.jpg) no-repeat bottom center scroll;        
+        background-image: url(../img/banner/Gradebook-Intro.jpg);        
     } 
     &.proven-partners {
-        background: url(../img/banner/ProvenPartners-Intro.jpg) no-repeat bottom center scroll;        
+        background-image: url(../img/banner/ProvenPartners-Intro.jpg);        
     }             
     &.whoweare {
-        background: url(../img/banner/WhoWeAre-Intro.jpg) no-repeat bottom center scroll;        
+        background-image: url(../img/banner/WhoWeAre-Intro.jpg);        
     }   
     &.blog {
         background-image: url(../img/banner/Homepage-Gradebook.jpg);
@@ -281,7 +284,7 @@ a {
             bottom: 0;
             right: 0;
             opacity: .8;
-            background-image: url(../img/banner/wavy2.svg);
+            background-image: url(../img/banner/wavy.svg);
             background-repeat: repeat;
             background-size: 55px;
             background-blend-mode: multiply;
@@ -658,6 +661,22 @@ ul.banner-social-buttons {
         }
     }
 }
+.post-list {
+    // @extend .margined-top;
+}
+
+.post.list-view {
+    @extend .margined-bottom;    
+}
+
+.mobile-v-spacer {
+    height: 1em;
+    display: block;
+    @media(min-width:768px) {
+        display: none;
+    }
+}
+
 
 footer {
     // padding: 50px 0;

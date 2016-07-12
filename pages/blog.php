@@ -46,15 +46,16 @@
     </div>
 </section>
 
-<section class="blogList">
-    <?php include 'includes/blogPost-List.php' ?>
-    <?php include 'includes/blogPost-List.php' ?>
-    <?php include 'includes/blogPost-List.php' ?>
-    <?php include 'includes/blogPost-List.php' ?>
-    <?php include 'includes/blogPost-List.php' ?>
-
-
-
-
-
+<section class="blog-wrap margined-top">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-10 col-xs-offset-1">
+                <?php include 'includes/blogPost-List.php' ?>
+                <?php include 'includes/blogPost-List.php' ?>
+                <?php include 'includes/blogPost-List.php' ?>
+                <?php include 'includes/blogPost-List.php' ?>
+                <?php include 'includes/blogPost-List.php' ?>
+            </div>
+        </div>
+    </div>
 </section>

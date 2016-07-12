@@ -6,8 +6,7 @@
                     <div class="col-md-8 text-left">
                         <br><br><br>
                         <h1>Building a better education, from the gradebook up.</h1>
-                        <p>JumpRope is more than a software company. We’re experts in standards-based grading and its practical implementation.
-</p>
+                        <h3 class="lato">JumpRope is more than a software company. We’re experts in standards-based grading and its practical implementation.</h3>
                    <!--      <a href="#about" class="btn btn-circle page-scroll">
                             <i class="fa fa-angle-double-down animated"></i>
                         </a> -->
@@ -23,7 +22,8 @@
             <div class="container">
                 <div class="col-md-10">
                     <h1>Deep roots in standards-based education.</h1>
-                    <p>Steeped in a profound knowledge of standards-based education, JumpRope’s gradebook does more than just track learning goals. It blends technology and instruction to elevate teacher practice and engage students.</p>
+                    <h3>Steeped in a profound knowledge of standards-based education, JumpRope’s gradebook does more than just track learning goals. It blends technology and instruction to elevate teacher practice and engage students.</h3>
+                    <br><br>
                     <a class="btn" href="#">Explore the Gradebook</a>
                 </div>
             </div>
@@ -36,7 +36,8 @@
             <div class="container">
                 <div class="col-md-10">
                     <h1>Partnering with you to effect transformational change.</h1>
-                    <p>It’s difficult to enact transformational change alone – JumpRope partners with you to make sure implementation is successful at all levels. Our site training, online courses, and expert customer service makes the transition to standards-based grading fluid not frustrating. We also provide consulting on everything from professional development, teacher practice, core philosophy, and family engagement. You get the benefit of our expertise every step of the way. </p>
+                    <h3>It’s difficult to enact transformational change alone – JumpRope partners with you to make sure implementation is successful at all levels. Our site training, online courses, and expert customer service makes the transition to standards-based grading fluid not frustrating. We also provide consulting on everything from professional development, teacher practice, core philosophy, and family engagement. You get the benefit of our expertise every step of the way. </h3>
+                    <br><br>
                     <a class="btn" href="#">Partner with Jumprope</a>
                 </div>
             </div>
@@ -54,8 +55,9 @@
             <div class="carousel-content">
                 <div class="row">
                     <div class="col-sm-8 col-sm-offset-2">
-                      <p class="ltgrey-text">"At first I thought standards-based grading would be overwhelming, with me drowning in student work and standards, but it has made me a much more efficient grader since I now know exactly what to look for on an assessment."</p>
-                      <p><small class="uppercase">ANDREW KASPRISIN</small><br><span class="lato tiny">Teacher, Essex Middle School</span></p>                    
+                      <h3 class="ltgrey-text">"At first I thought standards-based grading would be overwhelming, with me drowning in student work and standards, but it has made me a much more efficient grader since I now know exactly what to look for on an assessment."</h3>
+                      <br>
+                      <h4><span class="uppercase">ANDREW KASPRISIN</span><br><small class="lato">Teacher, Essex Middle School</small></h4>                    
                     </div>
                 </div>                    
             </div>
@@ -66,8 +68,9 @@
             <div class="carousel-content">
                 <div class="row">
                     <div class="col-sm-8 col-sm-offset-2">
-                      <p class="ltgrey-text">"Standards-based grading is awesome. It has made me a much more efficient grader since I now know exactly what to look for on an assessment."</p>
-                      <p><small class="uppercase">Richard Fredriksen</small><br><span class="lato tiny">VP, Northwest High School</span></p>                    
+                      <h3 class="ltgrey-text">"At first I thought standards-based grading would be overwhelming, with me drowning in student work and standards, but it has made me a much more efficient grader since I now know exactly what to look for on an assessment."</h3>
+                      <br>
+                      <h4><span class="uppercase">ALFRED NORTH</span><br><small class="lato">Teacher, Southeastern Middle School</small></h4>                    
                     </div>
                 </div>                    
             </div>
@@ -141,7 +144,8 @@
             <div class="container">
                 <div class="col-md-10">
                     <h1>Experts in <br>standards-based grading.</h1>
-                    <p>JumpRope was founded by teachers who are passionate about standards-based grading. Our software tailors teacher practice to the way students learn. Built around standards-based principles, our gradebook is the most customizable on the market and works in all different learning environments. We’re facilitating a paradigm shift that empowers students, teachers, and entire school districts.</p>
+                    <h4>JumpRope was founded by teachers who are passionate about standards-based grading. Our software tailors teacher practice to the way students learn. Built around standards-based principles, our gradebook is the most customizable on the market and works in all different learning environments. We’re facilitating a paradigm shift that empowers students, teachers, and entire school districts.</h4>
+                    <br><br>
                     <a class="btn" href="#">Discover Who We Are</a>
                 </div>
             </div>
@@ -154,27 +158,28 @@
             <div class="row">
                 <div class="col-sm-12">
                     <h4 class="ltturq-text uppercase">From the Blog</h4>
+                    <br>
                 </div>
             </div>
             <div class="row text-xs-center text-sm-center">
                 <article class="col-sm-1 col-md-4">
                     <img src="//placehold.it/300x200" alt="">
                     <br><br>
-                    <p class="small uppercase ltgrey-text nomargin questrial">January 4, 2016</p>
-                    <p class="questrial">Suspendisse tincidunt sem tristique velit varius, quis tincidunt augue.</p>
+                    <h5 class="uppercase ltgrey-text margined-top tiny questrial">January 4, 2016</h5>
+                    <h4 class="questrial">Suspendisse tincidunt sem tristique velit varius, quis tincidunt augue.</h4>
                 </article>
                 <article class="col-sm-1 col-md-4">
                     <img src="//placehold.it/300x200" alt="">
                     <br><br>
-                    <p class="small uppercase ltgrey-text nomargin questrial">January 4, 2016</p>
-                    <p class="questrial">Suspendisse tincidunt sem tristique velit varius, quis tincidunt augue.</p>
+                    <h5 class="uppercase ltgrey-text margined-top tiny questrial">January 4, 2016</h5>
+                    <h4 class="questrial">Suspendisse tincidunt sem tristique velit varius, quis tincidunt augue.</h4>
                 </article>
                 <article class="col-sm-1 col-md-4">
                     <img src="//placehold.it/300x200" alt="">
                     <br><br>
-                    <p class="small uppercase ltgrey-text nomargin questrial">January 4, 2016</p>
-                    <p class="questrial">Suspendisse tincidunt sem tristique velit varius, quis tincidunt augue.</p>
-                </article>                                
+                    <h5 class="uppercase ltgrey-text margined-top tiny questrial">January 4, 2016</h5>
+                    <h4 class="questrial">Suspendisse tincidunt sem tristique velit varius, quis tincidunt augue.</h4>
+                </article>                              
             </div>
         </div>
     </section>
