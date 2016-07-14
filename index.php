@@ -38,6 +38,8 @@
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
+<?php include '_includes/svg-defs.svg' ?>
+
 <?php include 'includes/header.php' ?>
 
 <?php include ("pages/$page.php"); ?>

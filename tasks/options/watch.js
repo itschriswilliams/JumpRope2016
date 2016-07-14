@@ -1,6 +1,9 @@
 module.exports = {
 	options: {
-      livereload: 12345,
+      livereload: true,
+  },
+  html: {
+      files: ['*/*.php']
   },
 	sass: {
       files: ['sass/*.scss'],
@@ -11,5 +14,9 @@ module.exports = {
   },
     devWatchJS: {
       files: ['js/*.js']
+  },
+  svg: {
+    files: ["img/svg/*.svg"],
+    tasks: ["svgstore"]
   }
 }

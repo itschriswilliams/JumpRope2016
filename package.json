@@ -1,6 +1,6 @@
 {
-  "name": "luma-sleep-web",
-  "description": "Luma Sleep Web Proj",
+  "name": "JumpRope",
+  "description": "JumpRope Web",
   "version": "0.1.0",
   "devDependencies": {
     "grunt": "^0.4.5",
@@ -13,6 +13,7 @@
     "grunt-contrib-uglify": "^0.7.0",
     "grunt-contrib-watch": "^0.6.1",
     "grunt-ftp-deploy": "^0.1.10",
-    "grunt-gh-pages": "^0.9.1"
+    "grunt-gh-pages": "^0.9.1",
+    "grunt-svgstore": "^1.0.0"
   }
 }

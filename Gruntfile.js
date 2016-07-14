@@ -15,7 +15,22 @@ function loadConfig(path) {
 
 var config = {
   pkg: grunt.file.readJSON('package.json'),
-  env: process.env
+  env: process.env,
+    svgstore: {
+    options: {
+      prefix : 'icon-',
+      svg: { 
+        style : "display: none;",
+        viewBox : '0 0 100 100',
+        xmlns: 'http://www.w3.org/2000/svg'
+      }
+    },
+    default: {
+      files: {
+        "_includes/svg-defs.svg": ["img/svg/*.svg"]
+      }
+    },
+  }
 };
 
 grunt.loadTasks('tasks');
@@ -27,5 +42,5 @@ grunt.initConfig(config);
 
 require('load-grunt-tasks')(grunt);
   // Default task(s).
-grunt.registerTask('default', ['concat', 'uglify', 'watch']);
+grunt.registerTask('default', ['concat', 'uglify', 'svgstore', 'watch']);
 };
