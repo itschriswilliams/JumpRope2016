@@ -91,15 +91,16 @@
     </div>
 </section>
 
-    <section class="productBar">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-4 col-sm-offset-8 padded tiny">
-                    <a href="#">
-                        <h6 class="uppercase white-text right">
-                            <img src="//placehold.it/64x64" alt="">Jump to the Gradebook</h6>
-                    </a>
-                </div>
+<section class="productBar">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4 col-sm-offset-8 padded tiny">
+                <a href="index.php?page=gradebook"><h6 class="uppercase white-text right">
+<svg class="icon whitepaper" viewBox="0 0 40 40">
+    <use xlink:href="#icon-deskandchair-white" />
+</svg>
+                Jump to the Gradebook</h6></a>
             </div>
-        </div>
-    </section>
+        </div>        
+    </div>
+</section>
