@@ -11,9 +11,10 @@
                     <h2 class="nomargin">
                         Concerned about making the transition to standards-based grading?
                     </h2>
-                    <p class="questrial">
+                    <br>
+                    <h4 class="questrial">
                         JumpRope has the solutions to successfully transform your district across every classroom.
-                    </p>
+                    </h4>
                     <!--      <a href="#about" class="btn btn-circle page-scroll"> <i class="fa fa-angle-double-down animated"></i>
                 </a>
                 -->
@@ -27,25 +28,29 @@
     <div class="container">
             <div class="row text-center padded-bottom less">
                 <div class="col-xs-10 col-xs-offset-1 center">
-                    <p class="questrial ltgrey-text">
+                    <h4 class="questrial ltgrey-text">
                         Our software, consulting, and implementation services work together to deliver holistic change. From shifting assessment philosophy to transforming teacher practice to using the curriculum to drive instruction, we make the entire standards-based process efficient and effective. 
-                    </p>
+                    </h4>
                 </div>
             </div>
             <div class="row">
                 <div class="col-sm-5 col-sm-offset-1 text-center">
-                    <img src="//placehold.it/90x90" alt="">
+                    <svg class="icon whitepaper" viewBox="0 0 40 40">
+                        <use xlink:href="#icon-clipboard" />
+                    </svg>
                     <br><br>
                     <h3>Curriculum Planning Tool</h3>
-                    <p class="small ltgrey-text">Our Curriculum Planning Tool is designed to prepare teachers to think about assessment in new ways before scores are ever entered. It’s an ideal way to prepare for a full standards-based implementation. This powerful tool allows teachers to define the “how” behind their lessons in a meaningful, quantifiable way. </p>
-                    <a class="btn ltgrey" href="#">Curriculum Planning Tool</a>
+                    <p class="ltgrey-text">Our Curriculum Planning Tool is designed to prepare teachers to think about assessment in new ways before scores are ever entered. It’s an ideal way to prepare for a full standards-based implementation. This powerful tool allows teachers to define the “how” behind their lessons in a meaningful, quantifiable way. </p>
+                    <a class="btn ltgrey" href="index.php?page=cpt">Curriculum Planning Tool</a>
                 </div>
                 <div class="col-sm-5 text-center">
-                    <img src="//placehold.it/90x90" alt="">
+                    <svg class="icon whitepaper" viewBox="0 0 40 40">
+                        <use xlink:href="#icon-gradebook" />
+                    </svg>
                     <br><br>
                     <h3>Gradebook</h3>
-                    <p class="small ltgrey-text">Our Gradebook works in all different environments and can be tailored to your district’s learning goals and outcomes. Built around standards -     based principles, this gradebook isn’t simply a repository for assessments — it’s a tool for transformation. Thanks to our renowned customization capability, our gradebook works with you not against you. </p>
-                    <a class="btn ltgrey" href="#">Gradebook</a>
+                    <p class="ltgrey-text">Our Gradebook works in all different environments and can be tailored to your district’s learning goals and outcomes. Built around standards -     based principles, this gradebook isn’t simply a repository for assessments — it’s a tool for transformation. Thanks to our renowned customization capability, our gradebook works with you not against you. </p>
+                    <a class="btn ltgrey" href="index.php?page=gradebook">Gradebook</a>
                 </div>                
             </div>
             <div class="row margined">

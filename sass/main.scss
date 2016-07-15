@@ -670,6 +670,15 @@ ul.banner-social-buttons {
     @extend .margined-bottom;    
 }
 
+.blog-home-list {
+    h4 {
+        a {
+            color: #666;
+        }
+    }
+}
+
+
 .mobile-v-spacer {
     height: 1em;
     display: block;

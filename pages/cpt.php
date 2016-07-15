@@ -27,7 +27,7 @@
             <div class="col-sm-6 ltturq padded all cpt1bg carat">
                 <h1 class="turq-text">1</h1>
                 <h3 class="white-text">Shifting Teacher Practice</h3>
-                <p class="small white-text">Able to be used with or without JumpRope’s gradebook, the Curriculum Planning Tool guides teachers through the process of planning courses in a standards-based system. With the help of this groundbreaking tool, educators can shift their teaching practice before implementing the gradebook. </p>
+                <p class="white-text">Able to be used with or without JumpRope’s gradebook, the Curriculum Planning Tool guides teachers through the process of planning courses in a standards-based system. With the help of this groundbreaking tool, educators can shift their teaching practice before implementing the gradebook. </p>
             </div>
             <div class="col-sm-6 ltturq padded all sqimg cpt1">
                 &nbsp;
@@ -40,7 +40,7 @@
             <div class="col-sm-6 turq padded all carat">
                 <h1 class="ltturq-text">2</h1>
                 <h3 class="white-text">Develop Meaningful Standards</h3>
-                <p class="small white-text">For administrators, the Curriculum Planning Tool can help develop your district’s standards around state standards or the common core. You can provide these standards to your teachers so they can use them as the starting place for their curriculum planning. This will pave the path to your standards-based grading philosophy. </p>
+                <p class="white-text">For administrators, the Curriculum Planning Tool can help develop your district’s standards around state standards or the common core. You can provide these standards to your teachers so they can use them as the starting place for their curriculum planning. This will pave the path to your standards-based grading philosophy. </p>
             </div>
         </div> 
         <div class="row padded-top tiny">
@@ -48,20 +48,20 @@
                 <div class="col-sm-4 padded all">
                     <h1 class="turq-text">3</h1>
                     <h3 class="white-text">Saving Time</h3>
-                    <p class="small white-text">Once the curriculum has been created teachers can easily import lessons and assessments into the gradebook to be scored. This saves teachers the frustration of having to do "double work."</p>
+                    <p class="white-text">Once the curriculum has been created teachers can easily import lessons and assessments into the gradebook to be scored. This saves teachers the frustration of having to do "double work."</p>
                 </div>                
             
                 <div class="col-sm-4 padded all">
                     <h1 class="turq-text">4</h1>
                     <h3 class="white-text">The Payoff</h3>
-                    <p class="small white-text">The curriculum tool in concert with the gradebook allows teachers to evaluate their instruction against student performance.</p>
+                    <p class="white-text">The curriculum tool in concert with the gradebook allows teachers to evaluate their instruction against student performance.</p>
                 </div>                
             
             
                 <div class="col-sm-4 padded all">
                     <h1 class="turq-text">5</h1>
                     <h3 class="white-text">Collaboration</h3>
-                    <p class="small white-text">District curriculum teams can collaborate with teachers in development of the curriculum maps. When comparing the curriculum maps against the gradebook, curriculum staff can see what's actually being taught and are able to easily keep the curriculum up to date.</p>
+                    <p class="white-text">District curriculum teams can collaborate with teachers in development of the curriculum maps. When comparing the curriculum maps against the gradebook, curriculum staff can see what's actually being taught and are able to easily keep the curriculum up to date.</p>
                 </div>                
                    
         </div>       
@@ -73,10 +73,13 @@
     <div class="container">
             <div class="row">
                 <div class="col-sm-8 col-sm-offset-2 text-center">
-                    <img src="//placehold.it/90x90" alt="">
+                    <svg class="icon clipboard" viewBox="0 0 40 40">
+                        <use xlink:href="#icon-clipboard" />
+                    </svg>
                     <br><br>
                     <h3>Contact us to get more information about the Curriculum Planning Tool.</h3>
-                    <p class="small ltgrey-text">The Curriculum Planning Tool is designed to work on its own. But it’s also an ideal first step before implementing JumpRope’s acclaimed standards-based gradebook. Together, with JumpRope’s consulting services, they round out the ecosystem of a successful standards-based practice. </p>
+                    <p class="ltgrey-text">The Curriculum Planning Tool is designed to work on its own. But it’s also an ideal first step before implementing JumpRope’s acclaimed standards-based gradebook. Together, with JumpRope’s consulting services, they round out the ecosystem of a successful standards-based practice. </p>
+                    <br>
                     <a class="btn ltgrey" href="#">Contact Us to Learn More</a>
                 </div>              
             </div>
@@ -88,7 +91,11 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-4 col-sm-offset-8 padded tiny">
-                <a href="#"><h6 class="uppercase white-text right"><img src="//placehold.it/64x64" alt="">Jump to the Gradebook</h6></a>
+                <a href="index.php?page=gradebook"><h6 class="uppercase white-text right">
+<svg class="icon whitepaper" viewBox="0 0 40 40">
+    <use xlink:href="#icon-deskandchair-white" />
+</svg>
+                Jump to the Gradebook</h6></a>
             </div>
         </div>        
     </div>

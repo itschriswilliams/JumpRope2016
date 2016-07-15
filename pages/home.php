@@ -26,9 +26,9 @@
     <div class="container">
         <div class="col-md-10">
             <h1>Deep roots in standards-based education.</h1>
-            <h3>
+            <h4>
                 Steeped in a profound knowledge of standards-based education, JumpRope’s gradebook does more than just track learning goals. It blends technology and instruction to elevate teacher practice and engage students.
-            </h3>
+            </h4>
             <br>
             <br>
             <a class="btn" href="#">Explore the Gradebook</a>
@@ -43,9 +43,9 @@
     <div class="container">
         <div class="col-md-10">
             <h1>Partnering with you to effect transformational change.</h1>
-            <h3>
+            <h4>
                 It’s difficult to enact transformational change alone – JumpRope partners with you to make sure implementation is successful at all levels. Our site training, online courses, and expert customer service makes the transition to standards-based grading fluid not frustrating. We also provide consulting on everything from professional development, teacher practice, core philosophy, and family engagement. You get the benefit of our expertise every step of the way.
-            </h3>
+            </h4>
             <br>
             <br>
             <a class="btn" href="#">Partner with Jumprope</a>
@@ -190,27 +190,27 @@
             <br></div>
     </div>
     <div class="row text-xs-center text-sm-center">
-        <article class="col-sm-1 col-md-4">
+        <article class="blog-home-list col-sm-1 col-md-4">
             <a href="#"><img src="//placehold.it/300x200" alt=""></a>
             <br>
             <br>
             <h5 class="uppercase ltgrey-text margined-top tiny questrial">January 4, 2016</h5>
-            <h4 class="questrial">
+            <h4 class="questrial"><a href="#">
                 Suspendisse tincidunt sem tristique velit varius, quis tincidunt augue.
-                <i class="arrowed rarr-blue inside"></i>
+                <i class="arrowed rarr-blue inside"></i></a>
             </h4>
         </article>
-        <article class="col-sm-1 col-md-4">
+        <article class="blog-home-list col-sm-1 col-md-4">
             <a href="#"><img src="//placehold.it/300x200" alt=""></a>
             <br>
             <br>
             <h5 class="uppercase ltgrey-text margined-top tiny questrial">January 4, 2016</h5>
-            <h4 class="questrial">
+            <h4 class="questrial"><a href="#">
                 Suspendisse tincidunt sem tristique velit varius, quis tincidunt augue.
-                <i class="arrowed rarr-blue inside"></i>
+                <i class="arrowed rarr-blue inside"></i></a>
             </h4>
-        </article>
-        <article class="col-sm-1 col-md-4">
+        </article>        
+        <article class="blog-home-list col-sm-1 col-md-4">
             <a href="#"><img src="//placehold.it/300x200" alt=""></a>
             <br>
             <br>
@@ -230,19 +230,19 @@
     <div class="row text-xs-center text-sm-center">
         <div class="col-xs-6 col-sm-3 center">
             <p>
-                <img src="//placehold.it/225x80" alt=""></p>
+                <img src="img/sub/Creds-YWLN.jpg" alt=""></p>
         </div>
         <div class="col-xs-6 col-sm-3 center">
             <p>
-                <img src="//placehold.it/225x80" alt=""></p>
+                <img src="img/sub/Creds-OutwardBound.jpg" alt=""></p>
         </div>
         <div class="col-xs-6 col-sm-3 center">
             <p>
-                <img src="//placehold.it/225x80" alt=""></p>
+                <img src="img/sub/Creds-TFA.jpg" alt=""></p>
         </div>
         <div class="col-xs-6 col-sm-3 center">
             <p>
-                <img src="//placehold.it/225x80" alt=""></p>
+                <img src="img/sub/Creds-NYC.jpg" alt=""></p>
         </div>
     </div>
 </div>

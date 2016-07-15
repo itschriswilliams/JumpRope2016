@@ -11,9 +11,9 @@
                     <h2 class="white-text">
                         Implementing a successful standards-based grading program takes more than just software. It requires a shift in philosophy.
                     </h2>
-                    <p class="white-text">
+                    <h4 class="white-text">
                         Of course, meaningful change doesn’t happen overnight. JumpRope helps districts with transforming teacher practice, setting goals, providing professional development, and more. We’re committed partners to districts ready to launch standards-based grading the right way.
-                    </p>
+                    </h4>
                 </div>
             </div>
         </div>
@@ -33,17 +33,17 @@
                 <div class="row gb-feats margined-top less">
                     <div class="gb-feat col-xs-11 col-xs-offset-1 col-sm-6 col-sm-offset-0 col-md-4 text-center">
                         <h2 class="turq-text">1</h2>
-                        <p class="white-text smaller">What are the improved student outcomes you most want to see?</p>
+                        <p class="white-text">What are the improved student outcomes you most want to see?</p>
                     </div>
                     <div class="gb-feat col-xs-11 col-xs-offset-1 col-sm-6 col-sm-offset-0 col-md-4 text-center">
                         <h2 class="turq-text">2</h2>
-                        <p class="white-text smaller">
+                        <p class="white-text">
                             How are you ready to support teachers to manage the changes ahead?
                         </p>
                     </div>
                     <div class="gb-feat col-xs-11 col-xs-offset-1 col-sm-6 col-sm-offset-0 col-md-4 text-center">
                         <h2 class="turq-text">3</h2>
-                        <p class="white-text smaller">
+                        <p class="white-text">
                             How have you prepared to share the district’s standards based grading system with the community?
                         </p>
                     </div>
@@ -60,9 +60,10 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-10 col-sm-offset-1 text-center">
-                <p class="ltgrey-text">
-                    JumpRope is ready to facilitate this conversation and pinpoint your needs. You may fear your problems are unique, but we’ve helped hundreds of schools and districts with similar challenges. Let’s talk to determine the best way forward for you.
-                </p>
+                <h4 class="ltgrey-text">
+                    JumpRope is ready to facilitate this conversation and pinpoint your needs. You may fear your problems are unique, but we’ve helped hundreds of schools and districts with similar challenges. <strong>Let’s talk to determine the best way forward for you.</strong>
+                </h4>
+                <br>
                 <a class="btn ltgrey margined-bottom" href="#">Schedule a Needs Assessment</a>
             </div>
         </div>
@@ -79,7 +80,7 @@
                         <h4 class="white-text questrial">
                             JumpRope is committed to implementing our software for your success.
                         </h4>
-                        <p class="small white-text lato">
+                        <p class="white-text lato">
                             That’s why we’ve created a set of 10 benchmarks to introduce, tailor, and sustain a standards-based grading system that makes sense for you.
                         </p>
                     </div>
@@ -98,7 +99,9 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-10 col-sm-offset-1 text-center">
-                <img src="//placehold.it/90x90" alt="">
+                <svg class="icon whitepaper" viewBox="0 0 40 40">
+                    <use xlink:href="#icon-gradebook" />
+                </svg>
                 <br>
                 <br>
                 <h3>JumpRope is ready to partner with you</h3>
@@ -158,7 +161,7 @@
                 <h3 class="questrial grey-text">
                     JumpRope’s excellent reputation for consulting and professional development is well earned.
                 </h3>
-                <p class="small lato ltgrey-text">
+                <p class="lato ltgrey-text">
                     Our staff provides a wide variety of ongoing training, including  consultations, online classes, and onsite seminars.
                 </p>
             </div>
@@ -191,17 +194,45 @@
                 <div class="col-xs-9 col-xs-offset-1">
                     <h5 class="questrial turq-text uppercase margined less">IMPLEMENTATION SERVICES</h5>
                     <h4 class="white-text questrial">JumpRope’s implementation services are second to none.</h4>
-                    <p class="small white-text lato">
+                    <p class="white-text lato">
                         We’ve invested in holistic solutions to ensure our software is successfully implemented and administered in your district. Transformation takes work. Thanks to JumpRope’s experts in standards-based philosophy, the transition is fluid, not frustrating.
                     </p>
                 </div>
             </div>
         </div>
         <div class="col-sm-6 ltturq padded all sqimg partners2 wpp-wrap">
-            <?php 
-                    $hrcolor = 'blue';
-                    include 'includes/wpp-feat.php'; 
-                ?></div>
+            <div class="wpp white ltgrey-border padded-bottom tiny">
+                <div class="row">
+                    <div class="col-sm-10 col-sm-offset-1">
+                        <br>
+                        <div class="row">
+                            <div class="col-sm-12 blue line margined-top tiny">
+                                <br></div>
+                            <br>
+                            <br>
+                            <div class="col-sm-12">
+                                <div class="row">
+                                    <div class="col-sm-2">
+                                        <a href="#">
+                                            <svg class="icon whitepaper" viewBox="0 0 40 40">
+                                                <use xlink:href="#icon-casestudy" />
+                                            </svg>
+                                        </a>
+                                    </div>
+                                    <div class="col-sm-9 text-left">
+                                        <h4 class="media-heading blue-text">Implementation Benchmarks: Lorem Ipsum Dolor Sit</h4>
+                                        <small class="uppercase arrowed rarr-blue">Read the Case Study</small>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <br></div>
+                </div>
+            </div>
+
+        </div>
     </div>
 </div>
 </section>
@@ -210,24 +241,26 @@
 <div class="container">
     <div class="row margined-top">
         <div class="col-sm-10 col-sm-offset-1 text-center">
-            <img src="//placehold.it/90x90" alt="">
+            <svg class="icon whitepaper" viewBox="0 0 40 40">
+                <use xlink:href="#icon-gears" />
+            </svg>
             <br>
             <br>
             <h3>We help your district through every step in the process.</h3>
-            <p class="ltgrey-text">
+            <h4 class="ltgrey-text">
                 Our work begins before any software is installed. We partner with key leaders to discuss your district’s goals and philosophy, developing an implementation process that is precise, effective, and customized.
-            </p>
+            </h4>
             <br>
             <div class="row text-left">
                 <div class="col-sm-6">
-                    <p class="small">
+                    <p class="ltgrey-text">
                         With our comprehensive
                         <a href="#" class="blue-text">gradebook</a>
                         , you’ll be empowered to craft a standards-based system that works for you, master the software to maintain the process, and execute assessments to transform teacher practice.
                     </p>
                 </div>
                 <div class="col-sm-6">
-                    <p class="small">
+                    <p class="ltgrey-text">
                         But the job isn’t finished there. Rather than installing the customized software and moving on to the next district, JumpRope offers consulting and professional development services to ensure that administrators, teachers, parents, and students gain the full benefit of our tools.
                     </p>
                 </div>
@@ -272,48 +305,65 @@
 <div class="container">
     <div class="row margined-top">
         <div class="col-sm-10 col-sm-offset-1 text-center">
-            <h3>We recognize teaching is demanding work requiring tremendous personal investment. With JumpRope, this effort becomes central to the educational process. </h3>
-            <p class="ltgrey-text">
+            <h3>
+                We recognize teaching is demanding work requiring tremendous personal investment. With JumpRope, this effort becomes central to the educational process.
+            </h3>
+            <br>
+            <h4 class="ltgrey-text">
                 Instead of creating a gradebook that merely computes data, we’ve devised technology that focuses on the way students learn, how they are taught, and the manner in which they are assessed. The diligence teachers exert becomes demonstrated, not diluted. It’s not a surface solution; it’s a powerful trigger for profound change.
-            </p>
+            </h4>
         </div>
     </div>
 </div>
 </section>
 
 <section class="casestudy-wp margined">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-10 col-sm-offset-1 text-center">
+<div class="container">
+    <div class="row">
+        <div class="col-sm-10 col-sm-offset-1 text-center">
             <div class="row">
                 <div class="col-sm-12 text-center">
-                    <h5 class="questrial turq-text uppercase margined less margined less">CASE STUDIES AND WHITE PAPERS</h5>
+                    <h5 class="questrial turq-text uppercase margined tiny">CASE STUDIES AND WHITE PAPERS</h5>
                     <br>
-                    <h3 class="ltgrey-text margined-bottom less">Discover more ways JumpRope can help your district. Explore studies of successful schools, read papers about best practices, and more. </h3>                    
+                    <h3 class="ltgrey-text margined-bottom less">
+                        Discover more ways JumpRope can help your district. Explore studies of successful schools, read papers about best practices, and more.
+                    </h3>
                 </div>
             </div>
             <div class="row">
                 <div class="col-sm-4 col-sm-offset-1 text-center">
-                    <img src="//placehold.it/90x90" alt="">
-                    <br><br>
+                    <svg class="icon whitepaper" viewBox="0 0 40 40">
+                        <use xlink:href="#icon-casestudy" />
+                    </svg>
+                    <br>
+                    <br>
                     <h3>Case Studies</h3>
-                    <p class="small ltgrey-text">Detailed studies of the challenges faced and processes employed by different schools. Learn how JumpRope contributed to these standards-based success stories.</p>
-                    <h5><a class="uppercase bold  ltgrey-text" href="#">Read the Case Studies</a></h5>
+                    <p class="ltgrey-text">
+                        Detailed studies of the challenges faced and processes employed by different schools. Learn how JumpRope contributed to these standards-based success stories.
+                    </p>
+                    <h5>
+                        <a class="uppercase bold ltgrey-text arrowed rarr-blue" href="#">Read the Case Studies</a>
+                    </h5>
                 </div>
                 <div class="col-sm-4 col-sm-offset-2 text-center">
-                    <img src="//placehold.it/90x90" alt="">
-                    <br><br>
+                    <svg class="icon whitepaper" viewBox="0 0 40 40">
+                        <use xlink:href="#icon-whitepaper" />
+                    </svg>
+                    <br>
+                    <br>
                     <h3>White Papers</h3>
-                    <p class="small ltgrey-text">Assess your needs as you transition to standards-based grading, explore our implementation benchmarks, and learn more about different calculation methods.</p>
-                    <h5><a class="uppercase bold ltgrey-text" href="#">READ THE WHITE PAPERS</a></h5>
-                </div>                
-            </div>
+                    <p class="ltgrey-text">
+                        Assess your needs as you transition to standards-based grading, explore our implementation benchmarks, and learn more about different calculation methods.
+                    </p>
+                    <h5>
+                        <a class="uppercase bold ltgrey-text arrowed rarr-blue" href="#">READ THE WHITE PAPERS</a>
+                    </h5>
+                </div>
             </div>
         </div>
     </div>
+</div>
 </section>
-
-
 
 <section class="productBar">
 <div class="container">
@@ -321,9 +371,23 @@
         <div class="col-sm-4 padded tiny">
             <a href="#">
                 <h6 class="uppercase white-text right">
-                    <img src="//placehold.it/64x64" alt="">Learn About The Curriculum Planning Tool</h6>
+                    <svg class="icon whitepaper" viewBox="0 0 40 40">
+                        <use xlink:href="#icon-clipboard-white" />
+                    </svg>
+                    Learn About The Curriculum Planning Tool
+                </h6>
             </a>
         </div>
+        <div class="col-sm-4 col-sm-offset-4 padded tiny">
+            <a href="#">
+                <h6 class="uppercase white-text right">
+                    Learn About The Curriculum Planning Tool
+                    <svg class="icon whitepaper" viewBox="0 0 40 40">
+                        <use xlink:href="#icon-deskandchair-white" />
+                    </svg>                    
+                </h6>
+            </a>
+        </div>        
     </div>
 </div>
 </section>
