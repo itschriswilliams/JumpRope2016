@@ -298,7 +298,7 @@ a {
         background-size: inherit;        
         @extend .white-text;        
         background: #005d80;
-        background-image: linear-gradient(to bottom,  rgba(255,255,255,.15) 0%,rgba(0,93,128,.15) 100%); /* W3C */
+        background-image: linear-gradient(to bottom,  rgba(10, 94, 127,.85) 0%,rgba(2,36,65,.65) 100%); /* W3C */
         background-repeat: repeat;
         // background-attachment: fixed;        
         position: relative;
@@ -420,6 +420,29 @@ a {
     background: -webkit-linear-gradient(top,  rgba(4,59,91,1) 0%,rgba(3,49,77,1) 100%); /* Chrome10-25,Safari5.1-6 */
     background: linear-gradient(to bottom,  rgba(10,96,127,1) 0%,rgba(4,55,83,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#043b5b', endColorstr='#03314d',GradientType=0 ); /* IE6-9 */
+    a {
+        h6 {
+            position: relative;
+            display: inline-block;
+            &:after {
+                content: '';
+                position: absolute;
+                right: -1.5em;
+                bottom: 2px;
+                width: 0px;
+                height: 0px;
+                border-top: 5px solid transparent;
+                border-bottom: 5px solid transparent;
+                border-left: 9px solid white;                
+            }
+        }
+    }
+    a.gradebook {
+
+    }
+    a.cpt {
+
+    }
 }
 .carat {
     &:before {
@@ -627,9 +650,19 @@ ul.banner-social-buttons {
                 height: 13px;
                 position: absolute;
                 left: -1.5em;
-                top: 3px;
-                background: url(http://placehold.it/13x13) no-repeat;
+                top: 0;
             }
+            &.lin {
+                &:before {
+                    background: url(../img/svg/LIN.svg) no-repeat;
+                }
+            }
+            &.tw {
+                &:before {
+                    background: url(../img/svg/TW.svg) no-repeat;
+                }
+            }            
+
         }
     }
 }
@@ -692,6 +725,30 @@ footer {
     // padding: 50px 0;
     font-size: .95em;
     @extend .lato;
+    a.btt {
+        position: relative;
+        &:after {
+            content: '';
+            position: absolute;
+            position: absolute;
+            right: -1.25em;
+            top: 25%;
+            width: 0px;
+            height: 0px;
+            border-left: 5px solid transparent;
+            border-right: 5px solid transparent;
+            border-bottom: 5px solid #00a7c0;
+            -webkit-transition: all .2s ease-in-out;
+            -moz-transition: all .2s ease-in-out;
+            transition: all .2s ease-in-out;            
+        }
+        &:hover {
+            color: white;
+            &:after {
+                border-bottom: 5px solid #ffffff;
+            }
+        }
+    }
     & p {
         margin: 0 0 1em 0;
         font-size: .95em;

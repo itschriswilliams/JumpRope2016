@@ -366,28 +366,26 @@
 </section>
 
 <section class="productBar">
-<div class="container">
-    <div class="row">
-        <div class="col-sm-4 padded tiny">
-            <a href="#">
-                <h6 class="uppercase white-text right">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4 padded tiny">
+                <a href="#" class="cpt">
                     <svg class="icon whitepaper" viewBox="0 0 40 40">
                         <use xlink:href="#icon-clipboard-white" />
                     </svg>
-                    Learn About The Curriculum Planning Tool
-                </h6>
-            </a>
-        </div>
-        <div class="col-sm-4 col-sm-offset-4 padded tiny">
-            <a href="#">
-                <h6 class="uppercase white-text right">
-                    Learn About The Curriculum Planning Tool
+                    <h6 class="uppercase white-text right">
+                        Learn About The
+                        <br>Curriculum Planning Tool</h6>
+                </a>
+            </div>
+            <div class="col-sm-4 col-sm-offset-4 padded tiny">
+                <a href="#" class="gradebook f-r">
                     <svg class="icon whitepaper" viewBox="0 0 40 40">
                         <use xlink:href="#icon-deskandchair-white" />
-                    </svg>                    
-                </h6>
-            </a>
-        </div>        
+                    </svg>
+                    <h6 class="uppercase white-text right">Jump to the Gradebook</h6>
+                </a>
+            </div>
+        </div>
     </div>
-</div>
 </section>

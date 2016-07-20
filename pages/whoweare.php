@@ -68,7 +68,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-10 col-sm-offset-1 text-center">
-                    <h5 class="questrial turq-text uppercase margined less">Our Team</h5>
+                    <h5 class="questrial turq-text uppercase">Our Team</h5>
+                    <br>
                     <p class="ltgrey-text">
                         When you partner with JumpRope, you work with educators and engineers who not only embrace standards-based grading, but understand how to make it work for your school district. Read more about our team’s experience and expertise. 
                     </p>
@@ -91,16 +92,3 @@
     </div>
 </section>
 
-<section class="productBar">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-4 col-sm-offset-8 padded tiny">
-                <a href="index.php?page=gradebook"><h6 class="uppercase white-text right">
-<svg class="icon whitepaper" viewBox="0 0 40 40">
-    <use xlink:href="#icon-deskandchair-white" />
-</svg>
-                Jump to the Gradebook</h6></a>
-            </div>
-        </div>        
-    </div>
-</section>

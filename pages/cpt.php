@@ -91,12 +91,13 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-4 col-sm-offset-8 padded tiny">
-                <a href="index.php?page=gradebook"><h6 class="uppercase white-text right">
-<svg class="icon whitepaper" viewBox="0 0 40 40">
-    <use xlink:href="#icon-deskandchair-white" />
-</svg>
-                Jump to the Gradebook</h6></a>
+                <a href="#" class="gradebook f-r">
+                    <svg class="icon whitepaper" viewBox="0 0 40 40">
+                        <use xlink:href="#icon-deskandchair-white" />
+                    </svg>
+                    <h6 class="uppercase white-text right">Jump to the Gradebook</h6>
+                </a>
             </div>
-        </div>        
+        </div>
     </div>
 </section>

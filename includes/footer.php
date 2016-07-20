@@ -4,7 +4,7 @@
             <div class="container">
                 <div class="row padded med">
                     <div class="col-sm-12 text-right">
-                        <h6><a href="#page-top" class="turq-text uppercase">Back to Top</a></h6>
+                        <h6><a href="#page-top" class="btt turq-text uppercase">Back to Top</a></h6>
                     </div>
                 </div>
                 <div class="row padded-bottom">

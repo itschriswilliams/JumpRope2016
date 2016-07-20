@@ -7,6 +7,6 @@
     <p class="member-readmore"><a href="">Read More +</a></p>
     <p class="member-social">
     	<a href="#" class="lin">LinkedIn</a>
-    	<a href="#" class="lin">Twitter</a>    	
+    	<a href="#" class="tw">Twitter</a>    	
     </p>
 </article>
