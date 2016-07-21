@@ -14,10 +14,10 @@
                     <div class="col-xs-5 col-sm-2">
                         <h5 class="white-text uppercase">Social</h5>
                         <ul class="footernav">
-                            <li><a href="#">Twitter</a></li>
-                            <li><a href="#">Facebook</a></li>
+                            <li><a href="https://twitter.com/jumpropers" target="_blank">Twitter</a></li>
+                            <li><a href="https://www.facebook.com/JumpRopeTechnology/" target="_blank">Facebook</a></li>
                             <li><a href="#">Google +</a></li>
-                            <li><a href="#">LinkedIn</a></li>
+                            <li><a href="https://www.linkedin.com/company/jumprope-inc?trk=hb_tab_compy_id_2310930" target="_blank">LinkedIn</a></li>
                         </ul>
                     </div>
                     <div class="col-xs-5 col-sm-2">

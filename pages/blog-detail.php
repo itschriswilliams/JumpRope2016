@@ -1,7 +1,7 @@
 <section class="blog-detail padded gridded blog">
     <div class="container white margined-top padded-top">
         <div class="row">
-            <div class="col-sm-7 col-sm-offset-1">
+            <div class="col-sm-6 col-sm-offset-1">
                 <article class="blog-post-detail">
                     <h5 class="questrial grey-text uppercase margined-bottom tiny">January 4, 2016</h5>
                     <h2 class="grey-text questrial">
@@ -43,11 +43,37 @@
                             </div>
                         </div>
                     </div>
+                    <div class="post-navshare">
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <a class="btn ltgrey" href="index.php?page=gradebook">&larr; Previous</a>
+                            </div>
+                            <div class="col-sm-4 col-sm-offset-4 text-right">
+                                <a class="btn ltgrey" href="index.php?page=gradebook">Next &rarr;</a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="sharebar">
+                                    <ul class="shareIcons">
+                                        <li><a href="#" class="fb"></a></li>
+                                        <li><a href="#" class="tw"></a></li>
+                                        <li><a href="#" class="lin"></a></li>
+                                        <li><a href="#" class="sharePost">Share</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
                 </article>
             </div>
-            <div class="col-sm-2 col-sm-offset-1">
-
+            <div class="col-sm-3 col-sm-offset-1">
+                <div class="post-list alt">
+                    <?php include 'includes/blogPost-List-alt.php' ?>
+                    <?php include 'includes/blogPost-List-alt.php' ?>
+                    <?php include 'includes/blogPost-List-alt.php' ?>                    
+                </div>
             </div>            
         </div>
     </div>
