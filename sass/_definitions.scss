@@ -196,7 +196,8 @@ h1 {
 }
 
 .btn {
-    @extent .questrial;
+    @extend .questrial;
+    padding: .65em 2em;
     font-weight: 400;
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;

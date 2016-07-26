@@ -60,6 +60,28 @@ a {
 }
 
 .navbar-custom {
+    &.navbar-fixed-top {
+        padding: 0;
+        ul.nav.navbar-nav {
+            & > li {
+                padding: 20px 0;
+            }
+        }
+        .navbar-header {
+            padding: 20px 0;
+        }        
+        &.top-nav-collapse {
+            padding: 0;
+            ul.nav.navbar-nav {
+                & > li {
+                    padding: 0;
+                }
+            }            
+            .navbar-header {
+                padding: 0;
+            }            
+        }
+    }
     margin-bottom: 0;
     // border-bottom: 1px solid rgba(white, 0.3);
     @extend .questrial;
@@ -85,6 +107,9 @@ a {
     .navbar-brand {
         width: 175px;
         font-weight: 700;
+        svg {
+            fill: white;
+        }
         &:focus {
             outline: none;
         }
@@ -103,7 +128,7 @@ a {
     }
     .nav {
         li {
-            position: relative;
+            position: inherit;
             a {
                 -webkit-transition: all .3s ease-in-out;
                 -moz-transition: all .3s ease-in-out;
@@ -152,7 +177,7 @@ a {
                 }
             }
             .subNav {
-                opacity: 0;
+                display: none;
                 -webkit-transition: all .3s ease-in-out;
                 -moz-transition: all .3s ease-in-out;
                 transition: all .3s ease-in-out;                
@@ -161,22 +186,23 @@ a {
                 overflow: hidden;
                 position: absolute;
                 top: 100%;
-                left: -50vw;
-                width: 150vw;
+                left: 0;
+                width: 100vw;
                 -webkit-transition: height 0.25s;
                 -moz-transition: height 0.25s;
                 transition: height 0.25s;
                 ul {
                     list-style: none;
-                    width: 50vw;
+                    // width: 50vw;
                     margin: 0;
                     li {
                         float: left;
                         a {
+                            display: block;
                             padding: 15px; 
                         }
                     }
-                    height: 76px;
+                    // height: 76px;
                     display: -webkit-box;
                     display: -moz-box;
                     display: box;
@@ -203,15 +229,16 @@ a {
                     justify-content: center;
                     -ms-flex-pack: center;                      
                 }
+            &.hovered {
+                
+                    -webkit-transition: all .3s ease-in-out;
+                    -moz-transition: all .3s ease-in-out;
+                    transition: all .3s ease-in-out;
+                    display: block;
+                
             }
-            &.cs:hover {
-                & > .subNav {
-                                    -webkit-transition: all .3s ease-in-out;
-                -moz-transition: all .3s ease-in-out;
-                transition: all .3s ease-in-out;
-                    opacity: 1;
-                }
-            }            
+            }
+            
         }
     }
     @media(min-width:768px) {
@@ -233,8 +260,77 @@ a {
         background-color: #fff !important;
         .navbar-brand {}
         .nav {
-            li {
-                a {
+            & > li {
+                & > a {
+                    @extend .ltgrey-text;
+                    -webkit-transition: all .3s ease-in-out;
+                    -moz-transition: all .3s ease-in-out;
+                    transition: all .3s ease-in-out;
+                    &:hover {
+                        @extend .grey-text;
+                        outline: none;
+                        background-color: transparent;
+                    }
+                    &:focus,
+                    &:active {
+                        outline: none;
+                        background-color: transparent;
+                    }
+                    &:after {
+                        content: ''
+                    }
+                    &.btn {
+                        margin: 8px 5px;
+                        padding: 5px 10px;
+                        @extend .questrial;
+                        text-transform: inherit;
+                        border: 1px solid #929292;
+                        color: #929292;                    
+                        &.login {
+                            background: transparent;
+                            &:hover {
+                                background-color: #929292;
+                                @extend .white-text;
+                            }
+                        }
+                        &.signup {
+                            @extend .turq;
+                            &:hover {
+                                @extend .orange;
+                                @extend .orange-border;  
+                                color: white !important;                          
+                            }
+                        }
+                        &:after {
+                            content: none;
+                        }
+                    }
+                }
+                &.active {
+                    outline: none;
+                    a {
+                        // background-color: rgba(white, 0.3);
+                        &:hover {
+                            // color: white;
+                        }
+                    }
+                }
+            }
+        }        
+        @media(min-width:768px) {
+            background-color: #fff !important;
+        }        
+    }
+    &.hovered {
+        background: #fff;
+        .navbar-brand {
+            svg {
+                fill: grey;
+            }
+        }
+        .nav {
+            & > li {
+                & > a {
                     @extend .ltgrey-text;
                     -webkit-transition: all .3s ease-in-out;
                     -moz-transition: all .3s ease-in-out;
@@ -273,20 +369,8 @@ a {
                         }
                     }
                 }
-                &.active {
-                    outline: none;
-                    a {
-                        // background-color: rgba(white, 0.3);
-                        &:hover {
-                            // color: white;
-                        }
-                    }
-                }
             }
-        }        
-        @media(min-width:768px) {
-            background-color: #fff !important;
-        }        
+        }
     }
 }
 

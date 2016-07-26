@@ -42,7 +42,7 @@
 
 
 <?php
-    $v2 = array("blog", "blog-detail", "privacy", "security", "terms");
+    $v2 = array("blog-detail", "privacy", "security", "terms");
 
     if(in_array($page, $v2)){
         include ('includes/header2.php');
@@ -72,6 +72,7 @@
 
     <!-- Custom Theme JavaScript -->
     <script src="js/grayscale.js"></script>
+    <script src="js/production.js"></script>
 
 </body>
 
