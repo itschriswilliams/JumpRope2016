@@ -23,8 +23,8 @@
                     <div class="col-xs-5 col-sm-2">
                         <h5 class="white-text uppercase">Company</h5>
                         <ul class="footernav">
-                            <li><a href="#">Privacy Policy</a></li>
-                            <li><a href="#">Security & Availability</a></li>
+                            <li><a href="index.php?page=privacy">Privacy Policy</a></li>
+                            <li><a href="index.php?page=security">Security & Availability</a></li>
                             <li><a href="#">Made in NYC</a></li>
                         </ul>
                     </div>
@@ -51,7 +51,7 @@
                 </div>
                 <div class="row padded-bottom tiny">
                     <div class="col-sm-12 text-center">
-                        <p class="copyright"><a href="#">Terms & Conditions</a> &nbsp; Copyright &copy; <script>document.write(new Date().getFullYear())</script> JumpRope Inc.</p>
+                        <p class="copyright"><a href="index.php?page=terms">Terms & Conditions</a> &nbsp; Copyright &copy; <script>document.write(new Date().getFullYear())</script> JumpRope Inc.</p>
                     </div>
                 </div>
             </div>

@@ -1,4 +1,4 @@
-<section class="blog-detail padded gridded blog">
+<section class="blog-detail padded gridded partial">
     <div class="container white margined-top padded-top">
         <div class="row">
             <div class="col-sm-6 col-sm-offset-1">

@@ -40,7 +40,17 @@
 
 <?php include '_includes/svg-defs.svg' ?>
 
-<?php include 'includes/header.php' ?>
+
+<?php
+    $v2 = array("blog", "blog-detail", "privacy", "security", "terms");
+
+    if(in_array($page, $v2)){
+        include ('includes/header2.php');
+    }
+    else{
+        include ('includes/header.php');
+    }
+?>
 
 <?php include ("pages/$page.php"); ?>
 
