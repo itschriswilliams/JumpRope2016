@@ -317,7 +317,7 @@
 </div>
 </section>
 
-<section class="casestudy-wp margined">
+<section class="casestudy-wp margined-top padded-top">
 <div class="container">
     <div class="row">
         <div class="col-sm-10 col-sm-offset-1 text-center">
@@ -325,11 +325,20 @@
                 <div class="col-sm-12 text-center">
                     <h5 class="questrial turq-text uppercase margined tiny">CASE STUDIES AND WHITE PAPERS</h5>
                     <br>
-                    <h3 class="ltgrey-text margined-bottom less">
+                    <h3 class="ltgrey-text">
                         Discover more ways JumpRope can help your district. Explore studies of successful schools, read papers about best practices, and more.
                     </h3>
                 </div>
             </div>
+        </div>
+    </div>
+</div>
+</section>
+
+<section class="casestudy-wp padded gridded">
+<div class="container">
+    <div class="row">
+        <div class="col-sm-10 col-sm-offset-1 text-center">
             <div class="row">
                 <div class="col-sm-4 col-sm-offset-1 text-center">
                     <svg class="icon whitepaper" viewBox="0 0 40 40">
@@ -345,6 +354,7 @@
                         <a class="uppercase bold ltgrey-text arrowed rarr-blue" href="#">Read the Case Studies</a>
                     </h5>
                 </div>
+            <div class="col-xs-12 mobile-v-spacer"><br><br><br></div>                
                 <div class="col-sm-4 col-sm-offset-2 text-center">
                     <svg class="icon whitepaper" viewBox="0 0 40 40">
                         <use xlink:href="#icon-whitepaper" />

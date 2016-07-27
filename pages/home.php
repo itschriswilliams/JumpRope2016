@@ -65,13 +65,12 @@
                 <div class="row">
                     <div class="col-sm-8 col-sm-offset-2">
                         <h3 class="ltgrey-text">
-                            "At first I thought standards-based grading would be overwhelming, with me drowning in student work and standards, but it has made me a much more efficient grader since I now know exactly what to look for on an assessment."
+                            &ldquo;At first I thought standards-based grading would be overwhelming, with me drowning in student work and standards, but it has made me a much more efficient grader since I now know exactly what to look for on an assessment.&rdquo;
                         </h3>
                         <br>
                         <h4>
-                            <span class="uppercase">ANDREW KASPRISIN</span>
-                            <br>
-                            <small class="lato">Teacher, Essex Middle School</small>
+                            <span class="test-name uppercase">ANDREW KASPRISIN</span>
+                            <small class="test-title lato">Teacher, Essex Middle School</small>
                         </h4>
                     </div>
                 </div>
@@ -84,13 +83,12 @@
                 <div class="row">
                     <div class="col-sm-8 col-sm-offset-2">
                         <h3 class="ltgrey-text">
-                            "At first I thought standards-based grading would be overwhelming, with me drowning in student work and standards, but it has made me a much more efficient grader since I now know exactly what to look for on an assessment."
+                            &ldquo;At first I thought standards-based grading would be overwhelming, with me drowning in student work and standards, but it has made me a much more efficient grader since I now know exactly what to look for on an assessment.&rdquo;
                         </h3>
                         <br>
                         <h4>
-                            <span class="uppercase">ALFRED NORTH</span>
-                            <br>
-                            <small class="lato">Teacher, Southeastern Middle School</small>
+                            <span class="test-name uppercase">ALFRED NORTH</span>
+                            <small class="test-title lato">Teacher, Southeastern Middle School</small>
                         </h4>
                     </div>
                 </div>
@@ -182,7 +180,7 @@
 </section>
 
 <!-- Blog Section -->
-<section id="blog" class="padded">
+<section id="blog" class="padded margined">
 <div class="container">
     <div class="row">
         <div class="col-sm-12">

@@ -21,7 +21,7 @@
 </section>
 
 <section class="padded gridded">
-    <div class="container">
+    <div class="container padded">
         <div class="row">
             <div class="col-sm-10 col-sm-offset-1 text-center">
                 <h3 class="grey-text">
@@ -35,7 +35,7 @@
     </div>
 </section>
 
-<section class="cpt-details margined">
+<section class="cpt-details margined-bottom">
     <div class="container">
         <div class="row padded-top tiny">
             <div class="col-xs-12 backgrounded gradebook nopadding">

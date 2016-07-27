@@ -28,7 +28,7 @@
                             <li><a href="#">Made in NYC</a></li>
                         </ul>
                     </div>
-
+                    <div class="col-xs-12 mobile-v-spacer"></div>
                     <div class="col-xs-10 col-sm-4 col-xs-offset-2 col-sm-offset-0">
                         <h5 class="white-text uppercase">The Notebook</h5>
                         <p>Helpful tips and news from JumpRope delivered straight to your inbox.</p>
@@ -42,6 +42,7 @@
                             </form>
                         </p>                        
                     </div>
+                    <div class="col-xs-12 mobile-v-spacer"></div>
                     <div class="col-xs-10 col-sm-3 col-xs-offset-2 col-sm-offset-0">
                         <h5 class="white-text uppercase">Get in Touch</h5>
                         <p>Connect with a seasoned expert on standards-based grading.</p>

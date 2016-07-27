@@ -43,6 +43,7 @@
                     <p class="ltgrey-text">Our Curriculum Planning Tool is designed to prepare teachers to think about assessment in new ways before scores are ever entered. It’s an ideal way to prepare for a full standards-based implementation. This powerful tool allows teachers to define the “how” behind their lessons in a meaningful, quantifiable way. </p>
                     <a class="btn ltgrey" href="index.php?page=cpt">Curriculum Planning Tool</a>
                 </div>
+                <div class="col-xs-12 mobile-v-spacer"><br><br><br></div>
                 <div class="col-sm-5 text-center">
                     <svg class="icon whitepaper" viewBox="0 0 40 40">
                         <use xlink:href="#icon-gradebook" />

@@ -1,11 +1,11 @@
+
 $(document).ready(function() {
   
 	$('nav.navbar-custom').hover(function() {
-		$(this).toggleClass('hovered');
+		$(this).stop().toggleClass('hovered');
 	});
 	$('ul.nav li').hover(function() {
-		$(this).children('.subNav').toggleClass('hovered');
+		$(this).children('.subNav').stop().toggleClass('hovered');
 	});	
 
 });
-

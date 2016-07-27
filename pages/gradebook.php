@@ -9,7 +9,7 @@
                     <br>
                     <h4 class="questrial turq-text uppercase margined-bottom tiny">Gradebook</h4>
                     <h2 class="white-text">
-                        This is more than a gradebook, <br> it's a game-changer. </h2>
+                        This is more than a gradebook, <br> it&rsquo;s a game-changer. </h2>
                     <h4 class="white-text">JumpRope’s software is designed to work in all different learning environments. This flexibility allows your district to tailor our gradebook to your specific philosophy, standards, and language.</h4>
             </div>
         </div>
@@ -35,6 +35,7 @@
                 <h4>Truly Standards-Based</h4>
                 <p class="small ltgrey-text">Our software is built around the idea of creating assessments that are aligned to one or many standards.</p>
             </div>
+            <div class="col-xs-12 mobile-v-spacer"><br><br><br></div>
             <div class="gb-feat col-xs-11 col-xs-offset-1 col-sm-6 col-sm-offset-0 col-md-4 text-center">
                 <svg class="icon whitepaper" viewBox="0 0 40 40">
                     <use xlink:href="#icon-reporting" />
@@ -43,6 +44,7 @@
                 <h4>Dual Reporting</h4>
                 <p class="small ltgrey-text">Optionally report  traditional grades alongside the new standard scores.</p>
             </div>
+            <div class="col-xs-12 mobile-v-spacer"><br><br><br></div>
             <div class="gb-feat col-xs-11 col-xs-offset-1 col-sm-6 col-sm-offset-0 col-md-4 text-center">
                 <svg class="icon whitepaper" viewBox="0 0 40 40">
                     <use xlink:href="#icon-cloud" />
@@ -51,6 +53,7 @@
                 <h4>Student and Parent Portal</h4>
                 <p class="small ltgrey-text">Students and parents can view progress on standards, download assignments and view missing work online, improving communication among teachers, parents, and students.</p>
             </div>
+            <div class="col-xs-12 mobile-v-spacer"><br><br><br></div>
             <div class="gb-feat col-xs-11 col-xs-offset-1 col-sm-6 col-sm-offset-0 col-md-4 text-center">
                 <svg class="icon whitepaper" viewBox="0 0 40 40">
                     <use xlink:href="#icon-recirc" />
@@ -58,7 +61,8 @@
                 <br><br>
                 <h4>Course and Proficiency Transcripts</h4>
                 <p class="small ltgrey-text">Offers the complete picture of a student’s progress, work habits, and educational history.</p>
-            </div>            
+            </div>    
+            <div class="col-xs-12 mobile-v-spacer"><br><br><br></div>        
             <div class="gb-feat col-xs-11 col-xs-offset-1 col-sm-6 col-sm-offset-0 col-md-4 text-center">
                 <svg class="icon whitepaper" viewBox="0 0 40 40">
                     <use xlink:href="#icon-nodes2" />
@@ -67,7 +71,7 @@
                 <h4>Habits of Work </h4>
                 <p class="small ltgrey-text">Gives teachers the ability to separately assess and report out non-academic standards.</p>
             </div>
-
+            <div class="col-xs-12 mobile-v-spacer"><br><br><br></div>
             <div class="gb-feat col-xs-11 col-xs-offset-1 col-sm-6 col-sm-offset-0 col-md-4 text-center">
                 <svg class="icon whitepaper" viewBox="0 0 40 40">
                     <use xlink:href="#icon-conversation" />
@@ -85,9 +89,13 @@
     <div class="container">
         <div class="row flex">
             <div class="col-sm-6 ltturq padded all productBar">
-                <h5 class="questrial turq-text uppercase margined-bottom tiny">CALCULATION METHODS AND CUSTOM REPORTING</h5>
-                <h4 class="white-text questrial">With deep roots in standards-based teaching and learning philosophy, our gradebook creates reports personalized for your students. </h4>
-                <p class="white-text lato">Built from the ground up as a standards-based gradebook, JumpRope understands what your grading goals are. No more fighting with traditional gradebooks or trying to fit a square peg into a round hole. It’s a powerful tool that identifies challenges, furthers instructional goals, and shifts teacher practice.</p>
+                <div class="row">
+                    <div class="col-sm-9 col-sm-offset-1">
+                        <h5 class="questrial turq-text uppercase margined-bottom tiny">CALCULATION METHODS AND CUSTOM REPORTING</h5>
+                        <h3 class="white-text questrial">With deep roots in standards-based teaching and learning philosophy, our gradebook creates reports personalized for your students. </h3>
+                        <p class="white-text lato">Built from the ground up as a standards-based gradebook, JumpRope understands what your grading goals are. No more fighting with traditional gradebooks or trying to fit a square peg into a round hole. It’s a powerful tool that identifies challenges, furthers instructional goals, and shifts teacher practice.</p>                        
+                    </div>
+                </div>
             </div>
             <div class="col-sm-6 ltturq padded all sqimg gradebook1 wpp-wrap">
                 <?php 
@@ -99,7 +107,7 @@
     </div>
 </section>
 
-<section class="solutions margined">
+<section class="solutions margined padded">
     <div class="container">
             <div class="row">
                 <div class="col-sm-10 col-sm-offset-1 text-center">
@@ -129,7 +137,7 @@
                 </div>                
             </div>
             <div class="row margined less">
-                <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 blue text-center padded all">
+                <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 dkblue text-center padded all">
                     <h4 class="ltturq-text questrial">Implementing a successful standards-based grading program takes more than just software. It requires a shift in philosophy.</h4>
                     <br>
                     <h6><a href="#" class="uppercase white-text arrowed rarr-white">LEARN HOW JUMPROPE CAN HELP WITH IMPLEMENTATION</a></h6>
