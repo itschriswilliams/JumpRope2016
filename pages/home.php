@@ -129,8 +129,10 @@
                                         </a>
                                     </div>
                                     <div class="col-sm-9 text-left">
+                                    <a href="#">
                                         <h4 class="media-heading turq-text">Implementation Benchmarks: Lorem Ipsum Dolor Sit</h4>
                                         <small class="uppercase arrowed rarr-blue">Get The Whitepaper</small>
+                                    </a>
                                     </div>
                                 </div>
                             </div>
@@ -144,8 +146,10 @@
                                         </a>
                                     </div>
                                     <div class="col-sm-9 text-left">
+                                    <a href="#">
                                         <h4 class="media-heading turq-text">Implementation Benchmarks: Lorem Ipsum Dolor Sit</h4>
                                         <small class="uppercase arrowed rarr-blue">Get The Whitepaper</small>
+                                        </a>
                                     </div>
                                 </div>
                             </div>

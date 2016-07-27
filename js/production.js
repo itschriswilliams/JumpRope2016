@@ -1,4 +1,3 @@
-
 $(document).ready(function() {
   
 	$('nav.navbar-custom').hover(function() {
