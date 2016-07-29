@@ -136,6 +136,7 @@ a {
             position: inherit;
             &.darrowed {
                 a {
+                    border-bottom: 1px solid #929292;
                     &:after {
                         opacity: 1;
                     }

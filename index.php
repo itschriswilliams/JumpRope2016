@@ -72,7 +72,7 @@
 
     <!-- Custom Theme JavaScript -->
     <script src="js/grayscale.js"></script>
-    <script src="js/production.js"></script>
+    <script src="js/production.min.js"></script>
 
 </body>
 
