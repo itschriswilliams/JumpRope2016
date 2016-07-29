@@ -134,7 +134,24 @@ a {
     .nav {
         li {
             position: inherit;
+            &.darrowed {
+                a {
+                    &:after {
+                        opacity: 1;
+                    }
+                }                
+            }
             a {
+                &:after {
+                    content: '';
+                    background: url(../img/svg/nav-darr.svg) no-repeat;
+                    width: 10px;
+                    height: 7px;
+                    position: absolute;
+                    right: 0;
+                    top: 22px;
+                    opacity: 0;
+                }
                 -webkit-transition: all .3s ease-in-out;
                 -moz-transition: all .3s ease-in-out;
                 transition: all .3s ease-in-out;
@@ -1164,7 +1181,23 @@ ul.banner-social-buttons {
 
 }
 
+.whitepaper-list {
+    .share {
+        display: block;
+        position: relative;
+        margin-left: 3em;
+        margin-bottom: 2em;
+        &:before {
+            content: '';
+            background-image: url(../img/svg/share.svg);
+            position: absolute;
+            left: -3em;
+            width: 22px;
+            height: 18px;
 
+        }
+    }
+}
 
 .mobile-v-spacer {
     min-height: 1em;
