@@ -33,7 +33,7 @@
                 </svg>
                 <br><br>
                 <h4>Truly Standards-Based</h4>
-                <p class="small ltgrey-text">Our software is built around the idea of creating assessments that are aligned to one or many standards.</p>
+                <p class="ltgrey-text">Our software is built around the idea of creating assessments that are aligned to one or many standards.</p>
             </div>
             <div class="col-xs-12 mobile-v-spacer"><br><br><br></div>
             <div class="gb-feat col-xs-11 col-xs-offset-1 col-sm-6 col-sm-offset-0 col-md-4 text-center">
@@ -42,7 +42,7 @@
                 </svg>
                 <br><br>
                 <h4>Dual Reporting</h4>
-                <p class="small ltgrey-text">Optionally report  traditional grades alongside the new standard scores.</p>
+                <p class="ltgrey-text">Optionally report  traditional grades alongside the new standard scores.</p>
             </div>
             <div class="col-xs-12 mobile-v-spacer"><br><br><br></div>
             <div class="gb-feat col-xs-11 col-xs-offset-1 col-sm-6 col-sm-offset-0 col-md-4 text-center">
@@ -51,7 +51,7 @@
                 </svg>
                 <br><br>
                 <h4>Student and Parent Portal</h4>
-                <p class="small ltgrey-text">Students and parents can view progress on standards, download assignments and view missing work online, improving communication among teachers, parents, and students.</p>
+                <p class="ltgrey-text">Students and parents can view progress on standards, download assignments and view missing work online, improving communication among teachers, parents, and students.</p>
             </div>
             <div class="col-xs-12 mobile-v-spacer"><br><br><br></div>
             <div class="gb-feat col-xs-11 col-xs-offset-1 col-sm-6 col-sm-offset-0 col-md-4 text-center">
@@ -60,7 +60,7 @@
                 </svg>
                 <br><br>
                 <h4>Course and Proficiency Transcripts</h4>
-                <p class="small ltgrey-text">Offers the complete picture of a student’s progress, work habits, and educational history.</p>
+                <p class="ltgrey-text">Offers the complete picture of a student’s progress, work habits, and educational history.</p>
             </div>    
             <div class="col-xs-12 mobile-v-spacer"><br><br><br></div>        
             <div class="gb-feat col-xs-11 col-xs-offset-1 col-sm-6 col-sm-offset-0 col-md-4 text-center">
@@ -69,7 +69,7 @@
                 </svg>
                 <br><br>
                 <h4>Habits of Work </h4>
-                <p class="small ltgrey-text">Gives teachers the ability to separately assess and report out non-academic standards.</p>
+                <p class="ltgrey-text">Gives teachers the ability to separately assess and report out non-academic standards.</p>
             </div>
             <div class="col-xs-12 mobile-v-spacer"><br><br><br></div>
             <div class="gb-feat col-xs-11 col-xs-offset-1 col-sm-6 col-sm-offset-0 col-md-4 text-center">
@@ -78,7 +78,7 @@
                 </svg>
                 <br><br>
                 <h4>Behavior Management and Response to Intervention</h4>
-                <p class="small ltgrey-text"> Allows staff to become instantly familiar with the behavior history of a student, making it easy to spot trends. Our anecdotal and narrative feedback system facilitates communication about student behavior among staff.</p>
+                <p class="ltgrey-text"> Allows staff to become instantly familiar with the behavior history of a student, making it easy to spot trends. Our anecdotal and narrative feedback system facilitates communication about student behavior among staff.</p>
             </div>                                                            
          
         </div>
@@ -194,9 +194,13 @@
     <div class="container">
         <div class="row flex">
             <div class="col-sm-6 ltturq padded all cpt1bg">
-                <h5 class="questrial turq-text uppercase margined less">Customer Support</h5>
-                <h4 class="white-text questrial">Founded by teachers steeped in standards-based education, we understand your challenges, questions, and concerns.</h4>
-                <p class="white-text lato">JumpRope is committed to implementing our software in a way that satisfies the needs of individual school systems and simplifies the work of multi-tasking educators. JumpRope’s expert staff not only provides direct support for teachers, but also offers a wide array of training options. Online and onsite software assistance are also available.</p>
+                <div class="row">
+                    <div class="col-sm-9 col-sm-offset-1">
+                        <h5 class="questrial turq-text uppercase margined less">Customer Support</h5>
+                        <h4 class="white-text questrial">Founded by teachers steeped in standards-based education, we understand your challenges, questions, and concerns.</h4>
+                        <p class="white-text lato">JumpRope is committed to implementing our software in a way that satisfies the needs of individual school systems and simplifies the work of multi-tasking educators. JumpRope’s expert staff not only provides direct support for teachers, but also offers a wide array of training options. Online and onsite software assistance are also available.</p>
+                    </div>                    
+                </div>
             </div>
             <div class="col-sm-6 ltturq padded all sqimg gradebook2 wpp-wrap">
                 <div class="wpp white ltgrey-border padded-bottom tiny">

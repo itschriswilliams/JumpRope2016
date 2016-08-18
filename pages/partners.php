@@ -32,17 +32,17 @@
 
                 <div class="row gb-feats margined-top less">
                     <div class="gb-feat col-xs-11 col-xs-offset-1 col-sm-6 col-sm-offset-0 col-md-4 text-center">
-                        <h2 class="turq-text">1</h2>
+                        <h1 class="turq-text">1</h1>
                         <p class="white-text">What are the improved student outcomes you most want to see?</p>
                     </div>
                     <div class="gb-feat col-xs-11 col-xs-offset-1 col-sm-6 col-sm-offset-0 col-md-4 text-center">
-                        <h2 class="turq-text">2</h2>
+                        <h1 class="turq-text">2</h1>
                         <p class="white-text">
                             How are you ready to support teachers to manage the changes ahead?
                         </p>
                     </div>
                     <div class="gb-feat col-xs-11 col-xs-offset-1 col-sm-6 col-sm-offset-0 col-md-4 text-center">
-                        <h2 class="turq-text">3</h2>
+                        <h1 class="turq-text">3</h1>
                         <p class="white-text">
                             How have you prepared to share the district’s standards based grading system with the community?
                         </p>
@@ -77,9 +77,9 @@
                 <div class="row">
                     <div class="col-xs-9 col-xs-offset-1">
                         <h5 class="questrial ltturq-text uppercase margined-bottom less">IMPLEMENTATION BENCHMARKS</h5>
-                        <h4 class="white-text questrial">
+                        <h3 class="white-text questrial">
                             JumpRope is committed to implementing our software for your success.
-                        </h4>
+                        </h3>
                         <p class="white-text lato">
                             That’s why we’ve created a set of 10 benchmarks to introduce, tailor, and sustain a standards-based grading system that makes sense for you.
                         </p>
@@ -270,7 +270,7 @@
     <div class="row margined tiny">
         <div class="col-xs-10 col-xs-offset-1 text-center margined-top less">
             <hr class="ltturq">
-            <p class="center ltturq-text nomargin">We welcome sharing the benefit of our experience with you!</p>
+            <h4 class="center ltturq-text nomargin">We welcome sharing the benefit of our experience with you!</h4>
             <hr class="ltturq"></div>
     </div>
 </div>

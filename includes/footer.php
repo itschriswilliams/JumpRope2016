@@ -37,7 +37,7 @@
                             <div class="form-group">
                             <input type="email" class="form-control" placeholder="ENTER EMAIL HERE">
                             <br>
-                            <input type="submit" class="btn white">
+                            <input type="submit" class="btn white" value="Sign Up">
                             </div>
                             </form>
                         </p>                        

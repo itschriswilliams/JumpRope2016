@@ -8,7 +8,7 @@
         <div class="col-sm-7 text-left">
         	<div class="mobile-v-spacer">&nbsp;</div>
             <h5 class="questrial ltgrey-text uppercase margined-bottom tiny">JANUARY 4, 2016</h5>
-            <h3>
+            <h3 class="post-title">
                 <a class="grey-text questrial" href="#">
                     Suspendisse tincidunt sem tristique velit varius, quis tincidunt augue.
                 </a>
