@@ -121,34 +121,37 @@
                         <div class="row">
                             <div class="col-sm-6">
                                 <div class="row">
-                                    <div class="col-sm-2">
+                                    <div class="col-xs-2 col-sm-2">
                                         <a href="#">
                                             <svg class="icon whitepaper" viewBox="0 0 40 40">
                                                 <use xlink:href="#icon-whitepaper" />
                                             </svg>
                                         </a>
                                     </div>
-                                    <div class="col-sm-9 text-left">
+                                    <div class="col-xs-9 col-sm-9 text-left">
                                     <a href="#">
                                         <h4 class="media-heading turq-text">Implementation Benchmarks: Lorem Ipsum Dolor Sit</h4>
-                                        <small class="uppercase arrowed rarr-blue">Get The Whitepaper</small>
+                                        <small class="uppercase arrowed rarr-blue ltgrey-text">Get The Whitepaper</small>
                                     </a>
                                     </div>
                                 </div>
                             </div>
+                            <div class="col-xs-12 visible-xs">
+                                &nbsp;
+                            </div>
                             <div class="col-sm-6">
                                 <div class="row">
-                                    <div class="col-sm-2">
+                                    <div class="col-xs-2 col-sm-2">
                                         <a href="#">
                                             <svg class="icon whitepaper" viewBox="0 0 40 40">
                                                 <use xlink:href="#icon-whitepaper" />
                                             </svg>
                                         </a>
                                     </div>
-                                    <div class="col-sm-9 text-left">
+                                    <div class="col-xs-9 col-sm-9 text-left">
                                     <a href="#">
                                         <h4 class="media-heading turq-text">Implementation Benchmarks: Lorem Ipsum Dolor Sit</h4>
-                                        <small class="uppercase arrowed rarr-blue">Get The Whitepaper</small>
+                                        <small class="uppercase arrowed rarr-blue ltgrey-text">Get The Whitepaper</small>
                                         </a>
                                     </div>
                                 </div>
@@ -192,36 +195,9 @@
             <br></div>
     </div>
     <div class="row text-xs-center text-sm-center">
-        <article class="blog-home-list col-sm-1 col-md-4">
-            <a href="#"><img src="//placehold.it/300x200" alt=""></a>
-            <br>
-            <br>
-            <h5 class="uppercase ltgrey-text margined-top tiny questrial">January 4, 2016</h5>
-            <h4 class="questrial"><a href="#">
-                Suspendisse tincidunt sem tristique velit varius, quis tincidunt augue.
-                <i class="arrowed rarr-blue inside"></i></a>
-            </h4>
-        </article>
-        <article class="blog-home-list col-sm-1 col-md-4">
-            <a href="#"><img src="//placehold.it/300x200" alt=""></a>
-            <br>
-            <br>
-            <h5 class="uppercase ltgrey-text margined-top tiny questrial">January 4, 2016</h5>
-            <h4 class="questrial"><a href="#">
-                Suspendisse tincidunt sem tristique velit varius, quis tincidunt augue.
-                <i class="arrowed rarr-blue inside"></i></a>
-            </h4>
-        </article>        
-        <article class="blog-home-list col-sm-1 col-md-4">
-            <a href="#"><img src="//placehold.it/300x200" alt=""></a>
-            <br>
-            <br>
-            <h5 class="uppercase ltgrey-text margined-top tiny questrial">January 4, 2016</h5>
-            <h4 class="questrial"><a href="#">
-                Suspendisse tincidunt sem tristique velit varius, quis tincidunt augue.
-                <i class="arrowed rarr-blue inside"></i></a>
-            </h4>
-        </article>
+        <?php include 'includes/blogPost-List-home.php' ?>  
+        <?php include 'includes/blogPost-List-home.php' ?>  
+        <?php include 'includes/blogPost-List-home.php' ?>  
     </div>
 </div>
 </section>
@@ -231,19 +207,19 @@
 <div class="container">
     <div class="row text-xs-center text-sm-center">
         <div class="col-xs-6 col-sm-3 center">
-            <p>
+            <p align="center">
                 <img src="img/sub/Creds-YWLN.jpg" alt=""></p>
         </div>
         <div class="col-xs-6 col-sm-3 center">
-            <p>
+            <p align="center">
                 <img src="img/sub/Creds-OutwardBound.jpg" alt=""></p>
         </div>
         <div class="col-xs-6 col-sm-3 center">
-            <p>
+            <p align="center">
                 <img src="img/sub/Creds-TFA.jpg" alt=""></p>
         </div>
         <div class="col-xs-6 col-sm-3 center">
-            <p>
+            <p align="center">
                 <img src="img/sub/Creds-NYC.jpg" alt=""></p>
         </div>
     </div>

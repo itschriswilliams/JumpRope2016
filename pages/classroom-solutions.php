@@ -57,7 +57,7 @@
             <div class="row margined">
                 <div class="col-xs-10 col-xs-offset-1 text-center">
                     <hr class="ltturq">
-                    <p class="center ltturq-text padded tiny">The Curriculum Planning Tool and Gradebook can be used separately. But when paired together, they’re a powerful combination for seamlessly transitioning a district to standards-based grading. </p>
+                    <h4 class="center ltturq-text padded tiny">The Curriculum Planning Tool and Gradebook can be used separately. But when paired together, they’re a powerful combination for seamlessly transitioning a district to standards-based grading. </h4>
                     <hr class="ltturq">                    
                 </div>
             </div>

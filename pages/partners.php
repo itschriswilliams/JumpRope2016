@@ -193,7 +193,7 @@
             <div class="row">
                 <div class="col-xs-9 col-xs-offset-1">
                     <h5 class="questrial turq-text uppercase margined less">IMPLEMENTATION SERVICES</h5>
-                    <h4 class="white-text questrial">JumpRope’s implementation services are second to none.</h4>
+                    <h3 class="white-text questrial">JumpRope’s implementation services are second to none.</h3>
                     <p class="white-text lato">
                         We’ve invested in holistic solutions to ensure our software is successfully implemented and administered in your district. Transformation takes work. Thanks to JumpRope’s experts in standards-based philosophy, the transition is fluid, not frustrating.
                     </p>
@@ -212,7 +212,7 @@
                             <br>
                             <div class="col-sm-12">
                                 <div class="row">
-                                    <div class="col-sm-2">
+                                    <div class="col-sm-2 iconBox">
                                         <a href="#">
                                             <svg class="icon whitepaper" viewBox="0 0 40 40">
                                                 <use xlink:href="#icon-casestudy" />
@@ -283,10 +283,10 @@
             <div class="row">
                 <div class="col-xs-9 col-xs-offset-1">
                     <h5 class="questrial turq-text uppercase margined less">Transforming Teacher Practice</h5>
-                    <h4 class="white-text questrial">
+                    <h3 class="white-text questrial">
                         JumpRope’s software creates a seismic shift in the classroom.
-                    </h4>
-                    <p class="small white-text lato">
+                    </h3>
+                    <p class="white-text lato">
                         It transforms standards based learning theory into successful teaching practice.
                     </p>
                 </div>
@@ -375,7 +375,7 @@
 </div>
 </section>
 
-<section class="productBar">
+<section class="productBar double">
     <div class="container">
         <div class="row">
             <div class="col-sm-4 padded tiny">

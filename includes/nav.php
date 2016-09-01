@@ -38,7 +38,7 @@
             <a href="index.php?page=blog">Blog</a>
         </li>        
         <li>
-            <a href="#">Contact</a>
+            <a class="fancybox fancybox.ajax" href="includes/contact-pop.php">Contact</a>
         </li>        
         <li>
             <a href="#" class="btn btn-default btn-sm login">Log In</a>

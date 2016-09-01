@@ -12,7 +12,10 @@
     <title>JumpRope</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- <link href="css/bootstrap.min.css" rel="stylesheet"> -->
+
+    <!-- Vendor CSS -->
+    <link href="css/vendor.min.css" rel="stylesheet">    
 
     <!-- Custom CSS -->
     <link href="css/main.css" rel="stylesheet">
@@ -58,14 +61,14 @@
 
 
 
-    <!-- jQuery -->
+    <!-- jQuery Lib -->
     <script src="js/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
 
-    <!-- Plugin JavaScript -->
-    <script src="js/jquery.easing.min.js"></script>
+    <!-- Vendor Plugin JavaScript -->
+    <script src="js/vendor.min.js"></script>
 
     <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
     <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>

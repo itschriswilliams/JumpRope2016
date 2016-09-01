@@ -8,7 +8,7 @@
           <br><br>
           <div class="col-sm-12">
               <div class="row">
-                  <div class="col-sm-2">
+                  <div class="col-sm-2 iconBox">
                       <a href="#">
                           <svg class="icon whitepaper" viewBox="0 0 40 40">
                               <use xlink:href="#icon-whitepaper" />

@@ -1,7 +1,7 @@
 module.exports = {
-	target: {
+target: {
     files: {
-      'css/output.css': ['css/WRR_main.css', 'css/vertgrid.css']
+      'css/vendor.min.css': ['css/vendor/*.css']
     }
   }
 }

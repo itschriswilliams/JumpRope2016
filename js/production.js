@@ -17,6 +17,19 @@ $(document).ready(function() {
 		});		
 	};
 
+	$(".fancybox").fancybox({
+		maxWidth	: 800,
+		maxHeight	: 600,
+		fitToView	: false,
+		width		: '50%',
+		height		: '70%',
+		padding		: '0',
+		autoSize	: false,
+		closeClick	: false,
+		openEffect	: 'none',
+		closeEffect	: 'none'
+	});
+
 	// $( window ).resize(function() {
 
 		// console.log("window resized");

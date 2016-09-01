@@ -197,7 +197,7 @@
                 <div class="row">
                     <div class="col-sm-9 col-sm-offset-1">
                         <h5 class="questrial turq-text uppercase margined less">Customer Support</h5>
-                        <h4 class="white-text questrial">Founded by teachers steeped in standards-based education, we understand your challenges, questions, and concerns.</h4>
+                        <h3 class="white-text questrial">Founded by teachers steeped in standards-based education, we understand your challenges, questions, and concerns.</h3>
                         <p class="white-text lato">JumpRope is committed to implementing our software in a way that satisfies the needs of individual school systems and simplifies the work of multi-tasking educators. JumpRope’s expert staff not only provides direct support for teachers, but also offers a wide array of training options. Online and onsite software assistance are also available.</p>
                     </div>                    
                 </div>
@@ -251,7 +251,7 @@
             <div class="row margined tiny">
                 <div class="col-xs-10 col-xs-offset-1 text-center margined-top less">
                     <hr class="ltturq">
-                    <p class="center ltturq-text nomargin">We welcome sharing the benefit of our experience with you!</p>
+                    <h4 class="center ltturq-text nomargin">We welcome sharing the benefit of our experience with you!</h4>
                     <hr class="ltturq">                    
                 </div>
             </div>            

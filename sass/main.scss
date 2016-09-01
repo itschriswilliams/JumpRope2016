@@ -55,7 +55,7 @@ a {
     &:hover,
     &:focus {
         text-decoration: none;
-        color: darken($primary,20%);
+        color: #00a7c0;
         cursor: pointer;
     }
 }
@@ -742,6 +742,13 @@ a {
     a.cpt {
 
     }
+    &.double {
+        a.gradebook {
+            @media(max-width:767px) {
+               float: left;
+            }  
+        }
+    }
 }
 .carat {
     &:before {
@@ -763,6 +770,9 @@ a {
         bottom: -10%;
         left: 15%;
         width: 75%;
+        .iconBox {
+            padding: 0 0 0 1em;
+        }
         & > .row {
             @media(max-width:767px) {
                 margin: 0 15px;
@@ -848,6 +858,12 @@ a {
                 }
             }
         }      
+    }
+}
+
+#logos {
+    img {
+        max-width: 75%;
     }
 }
 
@@ -1082,6 +1098,16 @@ ul.banner-social-buttons {
     &.alt {
         margin-top: 15em;
 
+    }
+}
+
+.blogpost-feature {
+    .postTitle {
+        a {
+            &:hover {
+                color: #00a7c0;
+            }
+        }
     }
 }
 
