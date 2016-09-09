@@ -50,7 +50,7 @@
                     <div class="col-xs-10 col-sm-3 col-xs-offset-2 col-sm-offset-0">
                         <h5 class="white-text uppercase">Get in Touch</h5>
                         <p>Connect with a seasoned expert on standards-based grading.</p>
-                        <a href="#" class="btn turq">Contact Us</a>                        
+                        <a class="btn turq fancybox fancybox.ajax" href="includes/contact-pop.php">Contact Us</a>                        
                     </div>                    
 
                 </div>
